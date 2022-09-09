@@ -14,6 +14,7 @@ Liiga kuum tagastab 1
 Töö salvestada faili nimega "checkTemp.js" ja laadida Githubi  
 NB! Faili nimes on olulised suured ja väikesed tähed. 
 
-Jagada minuga enda repository aadressi või private repository korral saata mulle kutse. 
+Jagada minuga enda repository aadressi või private repository korral saata mulle kutse.
+Edasised tööd tulevad samasse repository'sse.
 
 Minu GitHub kasutajanimi on timotr
