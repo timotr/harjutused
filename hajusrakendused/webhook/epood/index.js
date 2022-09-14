@@ -31,6 +31,10 @@ app.post("/api/products", (req, res) => {
   res.send(product)
 })
 
+// CRUD ülesanne
+// DELETE /api/products/5
+// PUT /api/products/5   {price: 24.44}
+
 app.get("/api/orders", (req, res) => {
   res.send(orders)
 })
@@ -42,11 +46,11 @@ app.post("/api/orders", (req, res) => {
 })
 
 /**
- * This is customer endpoint - fetch all product id's from database and create new order
+ * This is public endpoint - fetch all cart products from database and create new order
  * Example POST
  * {
  *    "customer": {"name": "Timo"},
- *    "cart": [7,1,4]
+ *    "cart": [{"id": 7, "amount": 4},{"id": 1, "amount": 1},{"id": 4, "amount": 1}]
  * }
  */
 app.post("/api/create-order", (req, res) => {
