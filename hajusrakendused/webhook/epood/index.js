@@ -26,17 +26,19 @@ app.get("/api/products", (req, res) => {
 })
 
 app.post("/api/products", (req, res) => {
-  products.push(req.body)
-  res.status(204).send()
+  const product = {...req.body, id: Math.ceil(Math.random()*100000)}
+  products.push(product)
+  res.send(product)
 })
 
 app.get("/api/orders", (req, res) => {
-  res.send(products)
+  res.send(orders)
 })
 
 app.post("/api/orders", (req, res) => {
-  products.push(req.body)
-  res.status(204).send()
+  const order = {...req.body, id: Math.ceil(Math.random()*100000)}
+  orders.push(order)
+  res.send(order)
 })
 
 /**
@@ -49,6 +51,7 @@ app.post("/api/orders", (req, res) => {
  */
 app.post("/api/create-order", (req, res) => {
   let order = {
+    id: Math.ceil(Math.random()*100000),
     customer: req.body.customer,
     items: [],
   }
