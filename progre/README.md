@@ -28,11 +28,11 @@ Keerukuse järjekorras, lihtsamad enne:
 Nüüd peaks olema piisavalt oskusi, et liikuda edasi.  
 
 CodeWars. Pakun, et seal on miljoneid harjutusi ja saad lahendada peaaegu igas programeermiskeeles.  
-Harjutused on pandud keerukuse järgi järkudesse, edasi arenedes saad järjest raskemaid harjutusi.
+Harjutused on pandud keerukuse järgi järkudesse, edasi arenedes saad järjest raskemaid harjutusi.  
 https://www.codewars.com/r/nsmOeA (referal link)
 
-Mõned harjutused leiab ka Redditist kui CodeWarsi automaattestidega lähenemine ei meeldi.
+Mõned harjutused leiab ka Redditist kui CodeWarsi automaattestidega lähenemine ei meeldi.  
 https://www.reddit.com/r/dailyprogrammer/
 
-Võimalus teiste programeerijatega omavahel võistelda lahendades lühikesi ülesandeid
+Võimalus teiste programeerijatega omavahel võistelda lahendades lühikesi ülesandeid.  
 https://www.codingame.com/multiplayer/clashofcode
