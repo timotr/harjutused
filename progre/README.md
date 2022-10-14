@@ -15,10 +15,10 @@ Osades harjutustes ette antud struktuurid on tehtud küll JavaScripti jaoks aga 
 
 Keerukuse järjekorras, lihtsamad enne:  
 - easy.md on kõige kergemad harjutused, lähevad failis sees järjest raskemaks.
-- checkTemp.md
+- checkTemp.md (hindeline)
 - guessTheNumber.md
-- countCode.md
-- orderSummary.md
+- countCode.md (hindeline)
+- orderSummary.md (hindeline)
 
 ## Kuidas edasi?
 
