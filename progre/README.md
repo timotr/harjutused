@@ -13,12 +13,15 @@ Osades harjutustes ette antud struktuurid on tehtud küll JavaScripti jaoks aga 
 
 ## Mis järjekorras harjutusi teha?
 
+Mõned tööd on mul tunnis arvestuslikud ja tuleb esitada GitHubis.
+Esimes harjutuse juures (checkTemp) on selle kohta juhend.
+
 Keerukuse järjekorras, lihtsamad enne:  
-- easy.md on kõige kergemad harjutused, lähevad failis sees järjest raskemaks.
-- checkTemp.md (hindeline)
-- guessTheNumber.md
-- countCode.md (hindeline)
-- orderSummary.md (hindeline)
+- [easy](https://github.com/timotr/harjutused/blob/main/progre/easy.md) on kõige kergemad harjutused, lähevad failis sees järjest raskemaks.
+- [checkTemp](https://github.com/timotr/harjutused/blob/main/progre/checkTemp.md) (arvestuslik)
+- [guessTheNumber](https://github.com/timotr/harjutused/blob/main/progre/guessTheNumber.md)
+- [countCode](https://github.com/timotr/harjutused/blob/main/progre/countCode.md) (arvestuslik)
+- [orderSummary](https://github.com/timotr/harjutused/blob/main/progre/orderSummary.md) (arvestuslik)
 
 ## Kuidas edasi?
 
