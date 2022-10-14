@@ -14,7 +14,7 @@ Osades harjutustes ette antud struktuurid on tehtud küll JavaScripti jaoks aga 
 ## Mis järjekorras harjutusi teha?
 
 Mõned tööd on mul tunnis arvestuslikud ja tuleb esitada GitHubis.
-Esimes harjutuse juures (checkTemp) on selle kohta juhend.
+Esimese arvestusliku töö juures (checkTemp) on selle kohta juhend.
 
 Keerukuse järjekorras, lihtsamad enne:  
 - [easy](https://github.com/timotr/harjutused/blob/main/progre/easy.md) on kõige kergemad harjutused, lähevad failis sees järjest raskemaks.
