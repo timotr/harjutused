@@ -21,7 +21,13 @@ Keerukuse järjekorras, lihtsamad enne:
 - [checkTemp](https://github.com/timotr/harjutused/blob/main/progre/checkTemp.md) (arvestuslik)
 - [guessTheNumber](https://github.com/timotr/harjutused/blob/main/progre/guessTheNumber.md)
 - [countCode](https://github.com/timotr/harjutused/blob/main/progre/countCode.md) (arvestuslik)
+- [perfectlyBalanced](https://github.com/timotr/harjutused/blob/main/progre/perfectlyBalanced.md)
+- [letterValueSum](https://www.reddit.com/r/dailyprogrammer/comments/onfehl/20210719_challenge_399_easy_letter_value_sum/)
 - [orderSummary](https://github.com/timotr/harjutused/blob/main/progre/orderSummary.md) (arvestuslik)
+- [morseCode](https://www.reddit.com/r/dailyprogrammer/comments/cmd1hb/20190805_challenge_380_easy_smooshed_morse_code_1/)
+- [sameNecklace](https://www.reddit.com/r/dailyprogrammer/comments/ffxabb/20200309_challenge_383_easy_necklace_matching/)
+- [rectangle](https://github.com/timotr/harjutused/blob/main/progre/rectangle.md)
+- [pyramid](https://github.com/timotr/harjutused/blob/main/progre/pyramid.md)
 
 ## Kuidas edasi?
 
