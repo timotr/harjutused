@@ -31,7 +31,19 @@ Keerukuse järjekorras, lihtsamad enne:
 
 ## Kuidas edasi?
 
-Nüüd peaks olema piisavalt oskusi, et liikuda edasi.  
+Nüüd peaks olema piisavalt oskusi, et liikuda edasi. Soovitan veel lihtsate algoritmidega harjutada aga tasuks hakata mõtlema, et kuidas me praeguseid teadmiseid kombineerime teiste tehnoloogiatega.
+
+### Koodi organiseerimine
+Näiteks tahate hakata õppima kuidas koodi organiseerida. Meil on olemas selle jaoks näiteks **objekt orienteeritud lähenemine, library'd ja framework'id ning git**. Kõike koodi ei pea ise välja mõtlema - arendajad on aastate jooksul korduvalt sarnaste heade lahenduste peale tulnud. Organiseerimise tehnikaid ja esimesi frameworke tutvustavad järgmised programmeerimise ained. Igal õpetajal on võimalus tutvustada teile enda lemmikuid frameworke. Eks aja jooksul leiate ka enda lemmiku.
+
+### Sidumine teiste tehnoloogiatega
+Kui oled juba natuke kokku puutunud HTML'i ja CSS'iga, siis siin saab mängu tuua programmeerimise. Kui on vaja teha nii, et lehe peal saaks kiirelt infot vahetada, tõlkida või korrata ühte HTMLi struktuuri tükki 20-30 korda siis **tuleb kasuks selline tehnika nagu templating**. Sellega kombineerime HTMLi ja programmeermiskeele.
+
+Kus ja kuidas veebilehed oma andmeid salvestavad. E-poes võib olla kümneid tuhandeid tooteid koos piltidega aga kus seda kõike infot hoida ja lihtsa otsinguga üles leida. **Tasub uurida kuidas faile kõvaketta pealt lugeda** ja e-poe külastajale tagasi saata. Loe mis asjad on **andmebaasid**.
+
+**Kuidas arvutid Internetis omavahel suhtlevad.** Täna säästame nii palju aega sellega, et leiame endale vajalikud asjad veebist mitte ei sõida mööda ilma ringi. Esimene samm oleks uurida näiteks **HTTP protokolli** kohta.
+
+## Veel harjutusi
 
 CodeWars. Pakun, et seal on miljoneid harjutusi ja saad lahendada peaaegu igas programeermiskeeles.  
 Harjutused on pandud keerukuse järgi järkudesse, edasi arenedes saad järjest raskemaid harjutusi.  
