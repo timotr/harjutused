@@ -31,17 +31,19 @@ Keerukuse järjekorras, lihtsamad enne:
 
 ## Kuidas edasi?
 
-Nüüd peaks olema piisavalt oskusi, et liikuda edasi. Soovitan veel lihtsate algoritmidega harjutada aga tasuks hakata mõtlema, et kuidas me praeguseid teadmiseid kombineerime teiste tehnoloogiatega.
+Nüüd peaks olema piisavalt oskusi, et edasi liikuda. Soovitan veel lihtsate algoritmidega harjutada aga tasuks hakata mõtlema, et kuidas me praeguseid teadmiseid kombineerime teiste tehnoloogiatega.
 
 ### Koodi organiseerimine
-Näiteks tahate hakata õppima kuidas koodi organiseerida. Meil on olemas selle jaoks näiteks **objekt orienteeritud lähenemine, library'd ja framework'id ning git**. Kõike koodi ei pea ise välja mõtlema - arendajad on aastate jooksul korduvalt sarnaste heade lahenduste peale tulnud. Organiseerimise tehnikaid ja esimesi frameworke tutvustavad järgmised programmeerimise ained. Igal õpetajal on võimalus tutvustada teile enda lemmikuid frameworke. Eks aja jooksul leiate ka enda lemmiku.
+Näiteks tahate hakata õppima kuidas teised arendajad koodi organiseerivad. Üks tehnika koodi organiseerida on **objekt orienteeritud lähenemine**. Koodi kirjutades tekivad pidevalt ühed samad probleemid mille lahendused on arendajad kokku kogunud **teekidesse (ingl k library)**. **Framework** nime all tuntakse süsteeme kus on kombineeritud teegid ja koodi organiseerimise tehnikad. Kõiki neid hakkavad õpetajad tutvustama järgmistes programmeerimise ainetes. Igal õpetajal on võimalus tutvustada teile enda lemmikuid frameworke aga eks aja jooksul leiate ka enda lemmiku.
 
 ### Sidumine teiste tehnoloogiatega
-Kui oled juba natuke kokku puutunud HTML'i ja CSS'iga, siis siin saab mängu tuua programmeerimise. Kui on vaja teha nii, et lehe peal saaks kiirelt infot vahetada, tõlkida või korrata ühte HTMLi struktuuri tükki 20-30 korda siis **tuleb kasuks selline tehnika nagu templating**. Sellega kombineerime HTMLi ja programmeermiskeele.
+Kui oled juba natuke kokku puutunud **HTML'i ja CSS'iga**, siis siin saab mängu tuua programmeerimise. Kui on vaja teha nii, et lehe peal saaks kiirelt infot vahetada, tõlkida või korrata ühte HTMLi struktuuri tükki 20-30 korda siis tuleb kasuks selline tehnika nagu **templating**. Sellega kombineerime HTMLi ja programmeermiskeele.
 
-Kus ja kuidas veebilehed oma andmeid salvestavad. E-poes võib olla kümneid tuhandeid tooteid koos piltidega aga kus seda kõike infot hoida ja lihtsa otsinguga üles leida. **Tasub uurida kuidas faile kõvaketta pealt lugeda** ja e-poe külastajale tagasi saata. Loe mis asjad on **andmebaasid**.
+Kus ja kuidas rakendused oma andmeid salvestavad. E-poes võib olla kümneid tuhandeid tooteid koos piltidega aga kus seda kõike infot hoida ja lihtsa otsinguga üles leida. **Tasub uurida kuidas faile kõvaketta peale kirjutada ja sealt lugeda**. Andmestruktuuride (array, object) salvestamiseks püsimällu kasutavad arendajad erineva võimekusega **andmebaase** - need on programmid mis teevad salvestamise, varundamise ja koormustaluvuse probleemid arendaja jaoks lihtsamaks. Otsi näiteks `SQL databases` või `Relational databases`.
 
 **Kuidas arvutid Internetis omavahel suhtlevad.** Täna säästame nii palju aega sellega, et leiame endale vajalikud asjad veebist mitte ei sõida mööda ilma ringi. Esimene samm oleks uurida näiteks **HTTP protokolli** kohta.
+
+Et paremini aru saada kuidas arvutid töötavad soovitan YouTube'ist vaadata playlisti [Crash Course - Computer Science](https://www.youtube.com/watch?v=tpIctyqH29Q&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo)
 
 ## Veel harjutusi
 
