@@ -1,4 +1,4 @@
-Lugeda tellimuse objekti seest kõik tellimuse kaubad. Printida iga kauba nimi, kogus ja hind konsooli eraldi reale. 
+Lugeda tellimuse objekti seest kõik tellimuse kaubad. Printida iga kauba nimi, kogus, hind ja summa konsooli eraldi reale. 
 Kõige lõpus printida konsooli tellimuse kogusumma. 
 
 Tellimuse objekti leiab GitHubist https://raw.githubusercontent.com/timotr/progre-helper/main/tellimus.js 
