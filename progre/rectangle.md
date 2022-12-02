@@ -38,7 +38,7 @@ Ja nüüd veidi raskem ülesanne, kirjuta funktsioon mis teeb seest tühja ristk
 ```
 
 Paariarvuliste ruutude ja teiste suuruste korral võib tulla paratamatult naljaka kujuga diagonaalid.  
-Õiget lahendust ei ole, tehke nii nagu teil parasjagu endal õnnestub.  
+Ühte õiget lahendust ei ole, tehke nii nagu teil parasjagu endal õnnestub.  
 `diagonalRect(7,5)` võib välja näha näiteks nii:  
 ```
 *******
