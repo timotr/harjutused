@@ -5,7 +5,7 @@ Kirjuta funktsioon mis arvutab klotside arvu järgi mitu korrust ehitada saab.
 
 ## Boonus ülesanne 1
 
-Mitme korruselise torni saab 1372 klotsiga ja mitu klotsi jääb selle torni puhul järgmisest korrusest puudu?
+Mitme korruselise torni saab 1352 klotsiga ja mitu klotsi jääb selle torni puhul järgmisest korrusest puudu?
 
 ## Boonus ülesanne 2
 
