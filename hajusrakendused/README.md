@@ -1,4 +1,4 @@
-Hajusrakenduste harjutused
+# Hajusrakenduste harjutused
 1. [varsti lisan]() EST  
 [Weather API](https://github.com/timotr/harjutused/blob/main/hajusrakendused/weather.md) ENG
 2. [Varuosade API](https://github.com/timotr/harjutused/blob/main/hajusrakendused/varuosad.md) EST  
