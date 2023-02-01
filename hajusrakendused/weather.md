@@ -12,7 +12,7 @@ For example, like this:
 
 The goal is to remind how to make an HTTP request and read the response in JSON format.
 If you make it as a C# project, it is not necessary to upload the entire project, the file where the data is read is sufficient, e.g. Program.cs in the case of the console app.
-Ideally, you could present the work in class during class.
+Ideally, you could present the work during the class/lesson.
 
 You can get Yo.no API endpoint address by searching "yr.no api" from web/Google and click "Get started" > "Start here" on the site.
 You want to make request to /compact endpoint with 
