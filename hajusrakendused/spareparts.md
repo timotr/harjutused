@@ -17,7 +17,7 @@ Choose your own programming language, framework and endpoint name.
 
 In order to solve the task, you have to ask the teacher additional questions, the description deliberately does not contain all the information.
 
-## Assesment
+## Assessment
  - Grade 3 Application is able to parse file and send it back in JSON
  - Grade 4 Application is able to filter/search spare parts by name or serial number
  - Grade 5 Application is able to paginate results, 30 results per page
