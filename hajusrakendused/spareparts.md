@@ -24,6 +24,19 @@ In order to solve the task, you have to ask the teacher additional questions, th
  - Grade 5 Application is able to paginate results, 30 results per page
  - Extra: Try to sort results by column, for example sort by price - cheapest first
 
+## What I expect you to already know about programming:
+- How to install and run Javascript applications
+- How to make HTTP requests
+- Loops and data structures in choosen language
+
+## What you might need to learn:
+- Kuidas lugeda CSV faili
+- What it means to "store data in memory"
+- How to set HTTP request headers, query parameters and body data
+- How to receive HTTP GET requests with the server
+- How to read the header, query parameters and body of the request sent to the server
+- How to paginate and sort data
+
 ## Example endpoints for filtering, sorting and pagination
 Base endpoint can be for example:
 
