@@ -24,7 +24,7 @@ In order to solve the task, you have to ask the teacher additional questions, th
  - Grade 5 Application is able to paginate results, 30 results per page
  - Extra: Try to sort results by column, for example sort by price - cheapest first
 
-## What I expect you to already know about programming:
+## What I expect you to already know:
 - How to install and run Javascript applications
 - How to make HTTP requests
 - Loops and data structures in choosen language
