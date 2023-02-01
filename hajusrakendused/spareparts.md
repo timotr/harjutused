@@ -13,7 +13,8 @@ CSV is exported every morning with fresh data and needs to be loaded into API.
 Data file can be over 600Mb. Best is to read it once into the memory and keep the web server running.
 This way we don't spend extra CPU time to read data from disk and parse during user requests.
 
-Choose your own programming language, framework and endpoint name.
+Choose your own programming language, framework and endpoint name.  
+Data file is named as [LE.txt](https://github.com/timotr/harjutused/blob/main/hajusrakendused/LE.txt)
 
 In order to solve the task, you have to ask the teacher additional questions, the description deliberately does not contain all the information.
 
