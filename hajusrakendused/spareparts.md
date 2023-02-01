@@ -25,23 +25,30 @@ In order to solve the task, you have to ask the teacher additional questions, th
 
 ## Example endpoints for filtering, sorting and pagination
 Base endpoint can be for example:
-  localhost:3300/spare-parts
+
+    localhost:3300/spare-parts
 
 Pagination could work using query parameters:
-  localhost:3300/spare-parts?page=2
+
+    localhost:3300/spare-parts?page=2
 
 Search can be separated by name and serial number:
-  localhost:3300/spare-parts?name=polt
-  localhost:3300/spare-parts?sn=9745224452
+
+    localhost:3300/spare-parts?name=polt
+    localhost:3300/spare-parts?sn=9745224452
   
 Or combined like:
-  localhost:3300/spare-parts/search/(search keywork here, both 9745224452 and "polt" are valid inputs)
+
+    localhost:3300/spare-parts/search/(search keywork here, both 9745224452 and "polt" are valid inputs)
   
 Search result should be also paginated:
-  localhost:3300/spare-parts?name=polt&page=2
+
+    localhost:3300/spare-parts?name=polt&page=2
 
 Sorting by column name (remember to use entire dataset when sorting, not just paged results):
-  localhost:3300/spare-parts?sort=price
+
+    localhost:3300/spare-parts?sort=price
   
 Sort in reverse order by adding `-` symbol in front of column name:
-  localhost:3300/spare-parts?sort=-price
+
+    localhost:3300/spare-parts?sort=-price
