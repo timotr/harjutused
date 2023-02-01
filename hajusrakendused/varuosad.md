@@ -1,4 +1,6 @@
-Seda harjutust saab jagada neljaks osaks:
+# Harjutus 2 - auto varuosade HTTP API
+
+## Seda harjutust saab jagada neljaks osaks:
 * Loe CSV faili andmed mällu
 * Saada andmed kasutajale JSON formaadis
 * Filtreeri/otsi varuosasid seerianumbri või nime järgi
