@@ -22,6 +22,18 @@ Andmefaili nimi on [LE.txt](https://github.com/timotr/harjutused/blob/main/hajus
  - Hinne 5 Rakendus suudab tulemuse edastada lehekülgede kaupa, 30 tulemust ühel lehel
  - Harjutamiseks: Proovige tulemusi sorteerida veeru järgi, näiteks hinna järgi – odavaim enne
 
+## Mida ma eeldan, et te juba teate:
+- Kuidas installida ja käivitada Javascripti rakendusi
+- Kuidas teha HTTP-päringuid
+- Tsüklid ja andmestruktuurid valitud keeles
+
+## Mida peate võib-olla juurde õppima:
+- Kuidas lugeda CSV faili
+- Mis tähendab "hoida andmeid mälus"
+- Kuidas määrata HTTP päringu päiseid (header), päringu parameetreid (query params) ja body
+- Kuidas serveriga HTTP GET päringuid vastu võtta
+- Kuidas lugeda serverisse saadetud päringu päist, query parameetreid ja body
+- Kuidas andmeid lehekülgedeks jagada ja sorteerida
 
 ## Näidis endpointid filtreerimiseks, sortimiseks ja lehekülgedega otsimiseks
 Aadress võib olla näiteks:
