@@ -32,4 +32,5 @@ You want to make request to /compact endpoint with
 * how to install third-party libraries using **package manager**
 * what are **latitude longitude coordinates**
 
+## How to submit
 You can present the work during class/lesson or submit it through Teams Assigments
