@@ -1,28 +1,28 @@
-# Harjutus 3 - Ülesannete nimekirja klientrakendus (ToDo)
+# Excerise 3 - To-do list client application
 
-## Kirjeldus
-Luua ülesannete nimekirja rakendus kus saab lisada tegevusi või meelespeasid. Igat ülesannet või tegevust peab saama märkida tehtuks, vajadusel muuta ning kustutada.
-Võid ka järgmises peatükis oleva rakenduse alla laadida ja käima panna kui see aitab paremini aru saada mida rakendus teeb.
+## Description
+Create a to-do list app where you can add activities or reminders. Every task or activity can be marked as done, name can be changed and task can be deleted if necessary.
+You can also download and run the demo application in the next chapter if it helps you better understand what the application does.
 
-Ülesannete nimekirja jaoks on olemas juba server-rakendus (REST API), mis suudab ülesandeid salvestada.
-API ja selle juhend asuvad aadressil http://demo2.z-bit.ee/
+There is already a server application (REST API) for the task list that can save tasks.
+The API and its manual are located at http://demo2.z-bit.ee/
 
-Esimene samm oleks mõne HTTP graafilise tööriistaga (Postman, Insomnia, VSC Thunder Client) teha endale kasutaja demo2 serverisse.
-Siis proovida teha mõned Taskid ja kontrollida kas need salvestuvad. Alles siis proovida teha samu päringuid JavaScriptis Reacti klientrakenduses.
+The first step would be to create a user on the demo2 server with some graphical HTTP tool (Postman, Insomnia, VSC Thunder Client).
+Then try to add some Tasks and check if they are saved. Only then try to make the same requests in the React client application using JavaScript.
 
-## Klientrakendus
-Seejärel soovitan võtta Reactis tehtud põhja: https://github.com/timotr/harjutused/tree/main/hajusrakendused/todo-frontend
-Sinna oleks vaja teha juurde päringud mis iga muudatuse korral saadaks andmed ka backend serverisse.
-Näiteks handleDeleteTask funktsioon saadaks HTTP päringuga teate serverile, et valitud Task tuleks kustutada.
+## Client application
+Then I recommend taking the sample application made in React: https://github.com/timotr/harjutused/tree/main/hajusrakendused/todo-frontend
+It would be necessary to make add HTTP requests there, which would send the data to the backend server with each change in data.
+For example, the handleDeleteTask function would send a message to the server with an HTTP request that the selected Task should be deleted.
 
-Kui React sulle ei sobi võid ehitada ise klientrakenduse endale sobivale platvormile või isegi käsurea rakendusena.
-Hajusrakenduste üks boonustest on see, et pole vahet mis keeles rakendust kirjutad, suhtlema saab need ikka panna.
-Klientrakendust (front-end) võib ise ehitada aga server-rakendust (back-end) selles ülesandes ise ei ehita - peame kasutama olemasolevat.
+If React doesn't suit you, you can build a client application yourself on a suitable platform or even as a command line application.
+One of the bonuses of distributed applications is that it doesn't matter what language you write the application in, you can still make them communicate.
+You can build the client application (front-end) yourself, but you cannot build the server application (back-end) yourself in this task - we have to use the existing one.
 
-## Hindamine
-- Hinne 3 Ülesandeid lisada, muuta ning kustutada (CRUD) aga API token on hard-coded ja kasutajat ei saa vahetada
-- Hinne 4 Lisaks eelmisele saad olemasoleva kasutajaga sisse ja välja logida
-- Hinne 5 Lisaks eelmisele saad ka uue kasutaja registreerida
+## Assessment
+- Grade 3 Create, read and update tasks (CRUD), but API token is hard-coded and user can't be changed in UI
+- Grade 4 In addition to the previous one, you can log in and out with an existing user
+- Grade 5 In addition to the previous one, you can also register a new user
 
 ## What I expect you to already know:
 - How to install and run Javascript applications
@@ -38,5 +38,5 @@ Klientrakendust (front-end) võib ise ehitada aga server-rakendust (back-end) se
 - About CORS when using Chrome
 - Navigate in React application, know about React Hooks https://beta.reactjs.org/
 
-## Kuidas esitada
-See töö võib olla Teamsis esitamiseks liiga suur, soovitatavalt laadige rakendus GitHubi ja esitage ainult hoidla address.
+## How to submit
+This work may be too large to submit in Teams, it is recommended to upload the application to GitHub and submit only the repository address in Teams.
