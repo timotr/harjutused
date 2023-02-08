@@ -17,6 +17,8 @@ Ideally, you could present the work during the class/lesson.
 You can get Yo.no API endpoint address by searching "yr.no api" from web/Google and click "Get started" > "Start here" on the site.
 You want to make request to /compact endpoint with Tallinn coordinates on query parameters.
 
+In order to solve the task, you have to ask the teacher additional questions, the description deliberately does not contain all the information.
+
 ### What I expect you to already know about programming:
 * variables
 * for loop
