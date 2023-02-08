@@ -17,6 +17,8 @@ Ideaalis võiksid tööd esitleda tunnis/tunnis.
 Sa leiad Yo.no API aadressi kui otsid internetist "yr.no api" ja veebilehele jõudes vajuta "Get started" > "Start here".
 Sa tahad teha päringu aadressile /compact ning lisada sinna juurde query parameetritega Tallinna koordinaadid.
 
+Ülesanne lahendamiseks tuleb õpetajalt täiendavaid küsimusi küsida, kirjelduses pole meelega kõike infot olemas.
+
 ### Mida ma eeldan, et te juba teate:
 * muutujad
 * for tsükkel
