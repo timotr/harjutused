@@ -11,7 +11,7 @@ The first step would be to create a user on the demo2 server with some graphical
 Then try to add some Tasks and check if they are saved. Only then try to make the same requests in the React client application using JavaScript.
 
 ## Client application
-Then I recommend taking the sample application made in React: https://github.com/timotr/harjutused/tree/main/hajusrakendused/todo-frontend
+Then I recommend taking the sample application made in React: https://github.com/timotr/harjutused/tree/main/hajusrakendused/todo-frontend  
 It would be necessary to make add HTTP requests there, which would send the data to the backend server with each change in data.
 For example, the handleDeleteTask function would send a message to the server with an HTTP request that the selected Task should be deleted.
 
