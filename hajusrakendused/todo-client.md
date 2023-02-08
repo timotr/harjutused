@@ -1,4 +1,4 @@
-# Excerise 3 - To-do list client application
+# Exercise 3 - To-do list client application
 
 ## Description
 Create a to-do list app where you can add activities or reminders. Every task or activity can be marked as done, name can be changed and task can be deleted if necessary.
