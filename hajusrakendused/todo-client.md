@@ -19,6 +19,8 @@ If React doesn't suit you, you can build a client application yourself on a suit
 One of the bonuses of distributed applications is that it doesn't matter what language you write the application in, you can still make them communicate.
 You can build the client application (front-end) yourself, but you cannot build the server application (back-end) yourself in this task - we have to use the existing one.
 
+In order to solve the task, you have to ask the teacher additional questions, the description deliberately does not contain all the information.
+
 ## Assessment
 - Grade 3 Create, read and update tasks (CRUD), but API token is hard-coded and user can't be changed in UI
 - Grade 4 In addition to the previous one, you can log in and out with an existing user
