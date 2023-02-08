@@ -15,14 +15,14 @@ If you make it as a C# project, it is not necessary to upload the entire project
 Ideally, you could present the work during the class/lesson.
 
 You can get Yo.no API endpoint address by searching "yr.no api" from web/Google and click "Get started" > "Start here" on the site.
-You want to make request to /compact endpoint with 
+You want to make request to /compact endpoint with Tallinn coordinates on query parameters.
 
 ### What I expect you to already know about programming:
 * variables
 * for loop
 * how to access array/list data type elements
 * how to access object/Dictionary/HashMap/Map data type elements
-* how to parse JSON data
+* how to parse JSON data (serializing)
 * how to print data on the screen
 
 ### What you might need to learn:
