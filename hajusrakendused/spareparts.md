@@ -30,7 +30,7 @@ In order to solve the task, you have to ask the teacher additional questions, th
 - Loops and data structures in choosen language
 
 ## What you might need to learn:
-- Kuidas lugeda CSV faili
+- how to read and parse CSV fail
 - What it means to "store data in memory"
 - How to set HTTP request headers, query parameters and body data
 - How to receive HTTP GET requests with the server
