@@ -19,6 +19,8 @@ Kui React sulle ei sobi võid ehitada ise klientrakenduse endale sobivale platvo
 Hajusrakenduste üks boonustest on see, et pole vahet mis keeles rakendust kirjutad, suhtlema saab need ikka panna.
 Klientrakendust (front-end) võib ise ehitada aga server-rakendust (back-end) selles ülesandes ise ei ehita - peame kasutama olemasolevat.
 
+Ülesanne lahendamiseks tuleb õpetajalt täiendavaid küsimusi küsida, kirjelduses pole meelega kõike infot olemas.
+
 ## Hindamine
 - Hinne 3 Ülesandeid lisada, muuta ning kustutada (CRUD) aga API token on hard-coded ja kasutajat ei saa vahetada
 - Hinne 4 Lisaks eelmisele saad olemasoleva kasutajaga sisse ja välja logida
