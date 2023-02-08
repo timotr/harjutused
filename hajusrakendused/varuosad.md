@@ -1,7 +1,7 @@
 # Harjutus 2 - auto varuosade HTTP API
 
 ## Seda harjutust saab jagada neljaks osaks:
-* Loe CSV faili andmed mällu
+* Loe CSV failist andmed mällu
 * Saada andmed kasutajale JSON formaadis
 * Filtreeri/otsi varuosasid seerianumbri või nime järgi
 * Parem hinne kui teed ka lehekülgedeks jagamise ja sorteerimise
@@ -37,7 +37,7 @@ Andmefaili nimi on [LE.txt](https://github.com/timotr/harjutused/blob/main/hajus
 - Kuidas lugeda serverisse saadetud päringu päist, query parameetreid ja body
 - Kuidas andmeid lehekülgedeks jagada ja sorteerida
 
-## Näidis endpointid filtreerimiseks, sortimiseks ja lehekülgedega otsimiseks
+## Näidis endpointid filtreerimiseks, sorteerimiseks ja lehekülgede kaupa sirvimiseks
 Aadress võib olla näiteks:
 
     localhost:3300/spare-parts
