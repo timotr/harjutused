@@ -25,9 +25,11 @@ Andmefaili nimi on [LE.txt](https://github.com/timotr/harjutused/blob/main/hajus
  - Harjutamiseks: Proovige tulemusi sorteerida veeru järgi, näiteks hinna järgi – odavaim enne
 
 ## Mida ma eeldan, et te juba teate:
-- Kuidas installida ja käivitada Javascripti rakendusi
+- Kuidas installida teeke (library) kasutades package manageri (npm, pip, nuget, composer)
+- Tsüklid ja andmestruktuurid valitud keeles, kui sa ei tea mis on andmestruktuur on viimane aeg küsida
+- kuidas kirjutada andmeid array/list tüüpi struktuuridesse
+- kuidas kirjutada andmeid object/Dictionary/HashMap/Map tüüpi struktuuridesse
 - Kuidas teha HTTP-päringuid
-- Tsüklid ja andmestruktuurid valitud keeles
 
 ## Mida peate võib-olla juurde õppima:
 - Kuidas lugeda CSV faili
