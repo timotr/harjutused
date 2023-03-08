@@ -1,5 +1,7 @@
 # Harjutus 3 - Ülesannete nimekirja klientrakendus (ToDo)
 
+Mõõdame timeriga?
+
 ## Kirjeldus
 Luua ülesannete nimekirja rakendus kus saab lisada tegevusi või meelespeasid. Igat ülesannet või tegevust peab saama märkida tehtuks, vajadusel muuta ning kustutada.
 Võid ka järgmises peatükis oleva rakenduse alla laadida ja käima panna kui see aitab paremini aru saada mida rakendus teeb.

@@ -25,9 +25,11 @@ In order to solve the task, you have to ask the teacher additional questions, th
  - Extra: Try to sort results by column, for example sort by price - cheapest first
 
 ## What I expect you to already know:
-- How to install and run Javascript applications
+- How to install libraries using package manager (npm, pip, nuget, composer)
+- Loops and data structures in choosen language (if you don't know what a data structure is, now is the last time to ask)
+- How to write data into array/list structure
+- How to write data into object/Dictionary/HashMap/Map structure
 - How to make HTTP requests
-- Loops and data structures in choosen language
 
 ## What you might need to learn:
 - how to read and parse CSV fail
