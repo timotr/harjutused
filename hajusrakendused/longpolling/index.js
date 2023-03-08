@@ -21,7 +21,7 @@ app.get('/subscribe/:channel', (req, res) => {
 app.get('/publish/:channel', (req, res) => {
     let counter = 0;
     // Send message to all subscribers
-    openConnections[req.params.channel].forEach(connection => {
+    openConnections[req.params.channel]?.forEach(connection => {
         // Check if connection is still open
         if (connection.writable) {
             counter++;
