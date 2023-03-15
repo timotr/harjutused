@@ -19,6 +19,11 @@ You want to make request to /compact endpoint with Tallinn coordinates on query 
 
 In order to solve the task, you have to ask the teacher additional questions, the description deliberately does not contain all the information.
 
+## Assessment
+ - Grade 3 Application shows current temperature
+ - Grade 4 Application shows upcoming temperature forecast (min 3h)
+ - Grade 5 Application shows upcoming temperature forecast using loop
+
 ### What I expect you to already know about programming:
 * variables
 * for loop
