@@ -8,7 +8,7 @@ For example, like this:
     2022-09-17T09:00:00 19C
     2022-09-17T10:00:00 20C
     2022-09-17T11:00:00 19C
-
+    ...
 
 The goal is to remind how to make an HTTP request and read the response in JSON format.
 If you make it as a C# project, it is not necessary to upload the entire project, the file where the data is read is sufficient, e.g. Program.cs in the case of the console app.
