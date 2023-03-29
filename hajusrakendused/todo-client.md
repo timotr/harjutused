@@ -38,7 +38,7 @@ In order to solve the task, you have to ask the teacher additional questions, th
 - How to store session tokens in sessionStorage or localStorage
 - What are debounce and throttle functions
 - About CORS when using Chrome
-- Navigate in React application, know about React Hooks https://beta.reactjs.org/
+- Navigate in React application, how to use functional components and React Hooks https://beta.reactjs.org/
 
 ## How to submit
 This work may be too large to submit in Teams, it is recommended to upload the application to GitHub and submit only the repository address in Teams.
