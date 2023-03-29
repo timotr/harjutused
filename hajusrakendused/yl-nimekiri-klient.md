@@ -40,7 +40,7 @@ Klientrakendust (front-end) võib ise ehitada aga server-rakendust (back-end) se
 - Kuidas kasutada sessionStorage või localStorage hoidlaid
 - Mis on debounce ja throttle funktsioonid
 - Teave CORS-i kohta Chrome'i kasutamisel
-- Navigeerida Reacti rakenduses, kasutada React Hook'e https://beta.reactjs.org/
+- Navigeerida Reacti rakenduses, kasutada funktsionaalseid komponente ja React Hook'e https://beta.reactjs.org/
 
 ## Kuidas esitada
 See töö võib olla Teamsis esitamiseks liiga suur, soovitatavalt laadige rakendus GitHubi ja esitage ainult hoidla address.
