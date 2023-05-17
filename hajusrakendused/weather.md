@@ -8,7 +8,7 @@ For example, like this:
     2022-09-17T09:00:00 19C
     2022-09-17T10:00:00 20C
     2022-09-17T11:00:00 19C
-
+    ...
 
 The goal is to remind how to make an HTTP request and read the response in JSON format.
 If you make it as a C# project, it is not necessary to upload the entire project, the file where the data is read is sufficient, e.g. Program.cs in the case of the console app.
@@ -18,6 +18,11 @@ You can get Yo.no API endpoint address by searching "yr.no api" from web/Google 
 You want to make request to /compact endpoint with Tallinn coordinates on query parameters.
 
 In order to solve the task, you have to ask the teacher additional questions, the description deliberately does not contain all the information.
+
+## Assessment
+ - Grade 3 Application shows current temperature
+ - Grade 4 Application shows upcoming temperature forecast (min 3h)
+ - Grade 5 Application shows upcoming temperature forecast using loop
 
 ### What I expect you to already know about programming:
 * variables

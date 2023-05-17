@@ -2,7 +2,7 @@
 
 ## Seda harjutust saab jagada neljaks osaks:
 * Loe CSV failist andmed mällu
-* Saada andmed kasutajale JSON formaadis
+* Saada andmed kasutajale JSON formaadis kasutades HTTP veebiserverit
 * Filtreeri/otsi varuosasid seerianumbri või nime järgi
 * Parem hinne kui teed ka lehekülgedeks jagamise ja sorteerimise
 
