@@ -11,18 +11,28 @@ The first step would be to create a user on the demo2 server with some graphical
 Then try to add some Tasks and check if they are saved. Only then try to make the same requests in the React client application using JavaScript.
 
 ## Client application
-Then I recommend taking the sample application made in React: https://github.com/timotr/harjutused/tree/main/hajusrakendused/todo-frontend  
-It would be necessary to make add HTTP requests there, which would send the data to the backend server with each change in data.
-For example, the handleDeleteTask function would send a message to the server with an HTTP request that the selected Task should be deleted.
+After playing around with API I recommend taking a template application that has basic UI code ready to use.
+![[todoapp.png]]
 
-If React doesn't suit you, you can build a client application yourself on a suitable platform or even as a command line application.
+There are two samples available. One is made in React framework, another is made in vanilla JavaScript.  
+Vanilla means it doesn't use any framework, no need to install anything, just open index.html and it works.
+This one it might be easier to understand at first, but not so convenient for larger projects.
+
+[React example](https://github.com/timotr/harjutused/tree/main/hajusrakendused/todo-frontend-react)
+[Vanilla JS](https://github.com/timotr/harjutused/tree/main/hajusrakendused/todo-frontend-vanilla)
+
+Right now in those templates everything works until you refresh the page - you'll see nothing is saved.
+You need to add HTTP requests into the code, which would send the data to the backend server when users changes tasks.
+For example, the delete button would send a message to the server with an HTTP request that the selected task should be deleted.
+
+If example doesn't suit you, you can build a client application yourself on a suitable platform or even as a command line application.
 One of the bonuses of distributed applications is that it doesn't matter what language you write the application in, you can still make them communicate.
 You can build the client application (front-end) yourself, but you cannot build the server application (back-end) yourself in this task - we have to use the existing one.
 
 In order to solve the task, you have to ask the teacher additional questions, the description deliberately does not contain all the information.
 
 ## Assessment
-- Grade 3 Create, read and update tasks (CRUD), but API token is hard-coded and user can't be changed in UI
+- Grade 3 Create, read and update tasks (CRUD) are mirrored in demo2 server, but API token is hard-coded and user can't be changed in UI
 - Grade 4 In addition to the previous one, you can log in and out with an existing user
 - Grade 5 In addition to the previous one, you can also register a new user
 
