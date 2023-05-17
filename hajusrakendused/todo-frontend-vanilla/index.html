@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo app</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/antd/4.16.13/antd.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div type="flex" class="ant-row ant-row-center" style="min-height: 100vh; margin-top: 6rem;">
+        <div class="ant-col ant-col-12">
+
+            <h1>Task List</h1>
+            <button id="add-task" type="button" class="ant-btn ant-btn-default">Add Task</button>
+            <div class="ant-divider ant-divider-horizontal" role="separator"></div>
+
+            <div class="ant-list ant-list-sm ant-list-split ant-list-bordered">
+                <ul id="task-list" class="ant-list-items"></ul>
+            </div>
+        </div>
+    </div>
+
+    
+    <div style="display: none">
+        <!-- Templates, so you don't have to mess with document.createElement -->
+        <label class="ant-checkbox-wrapper" data-template="ant-checkbox">
+            <span class="ant-checkbox">
+                <input type="checkbox" class="ant-checkbox-input" value="">
+                <span class="ant-checkbox-inner"></span>
+            </span>
+        </label>
+
+        <li class="ant-list-item" data-template="task-row">
+            <div type="flex" class="ant-row ant-row-space-between ant-row-middle" style="width: 100%;">
+                <div class="ant-space ant-space-horizontal ant-space-align-center" style="gap: 8px;">
+                    <div class="ant-space-item">
+                        <label class="ant-checkbox-wrapper">
+                            <span class="ant-checkbox">
+                                <input name="completed" type="checkbox" class="ant-checkbox-input" value="">
+                                <span class="ant-checkbox-inner"></span>
+                            </span>
+                        </label>
+                    </div>
+                    <div class="ant-space-item">
+                        <input name="name" class="ant-input" type="text" value="New task">
+                    </div>
+                </div>
+
+                <button class="delete-task" type="button" class="ant-btn ant-btn-text">
+                    <span role="img" aria-label="delete" class="anticon anticon-delete">
+                        <svg viewBox="64 64 896 896" focusable="false" data-icon="delete" width="1em"
+                            height="1em" fill="currentColor" aria-hidden="true">
+                            <path
+                                d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z">
+                            </path>
+                        </svg>
+                    </span>
+                </button>
+            </div>
+        </li>
+    </div>
+</body>
+
+</html>
