@@ -18,8 +18,8 @@ There are two samples available. One is made in React framework, another is made
 Vanilla means it doesn't use any framework, no need to install anything, just open index.html and it works.
 This one it might be easier to understand at first, but not so convenient for larger projects.
 
-[React example](https://github.com/timotr/harjutused/tree/main/hajusrakendused/todo-frontend-react)
-[Vanilla JS](https://github.com/timotr/harjutused/tree/main/hajusrakendused/todo-frontend-vanilla)
+- [React example](https://github.com/timotr/harjutused/tree/main/hajusrakendused/todo-frontend-react)
+- [Vanilla JS](https://github.com/timotr/harjutused/tree/main/hajusrakendused/todo-frontend-vanilla)
 
 Right now in those templates everything works until you refresh the page - you'll see nothing is saved.
 You need to add HTTP requests into the code, which would send the data to the backend server when users changes tasks.
