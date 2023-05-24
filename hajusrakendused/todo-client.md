@@ -12,7 +12,7 @@ Then try to add some Tasks and check if they are saved. Only then try to make th
 
 ## Client application
 After playing around with API I recommend taking a template application that has basic UI code ready to use.
-![[todoapp.png]]
+![Image of ToDo application with inputs](todoapp.png)
 
 There are two samples available. One is made in React framework, another is made in vanilla JavaScript.  
 Vanilla means it doesn't use any framework, no need to install anything, just open index.html and it works.
