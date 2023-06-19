@@ -17,7 +17,7 @@ NB! Faili nimes on olulised suured ja väikesed tähed ning faililaiend `.js`.
 ## Kuidas panna kodutöö GitHubi
 
 Teha endale GitHubi konto ning teha sinna terve programeermise aine jaoks üks repository (lühidalt repo).  
-Tavaliselt iga projekti jaoks tehakse uus repository - meie projekt on saada algtõed programmeermisest selgeks.
+Tavaliselt iga projekti jaoks tehakse uus repository - meil on praegu üks projekt eesmärgiga on saada algtõed programmeermisest selgeks, kõik tööd paneme eraldi failidena sinna reposse.
 
 Repository nimi pole oluline, võite panna "progre", "programmeermise-alused", "tpt", "alien-octo-kitty" - mis iganes mõttesse tuleb.  
 Ise valite kas teete private või public repository. Public on avalikult veebis näha ja otsinguga leitav.  
