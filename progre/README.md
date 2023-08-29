@@ -3,7 +3,7 @@
 
 Olen siia kogunud mõningaid harjutusi mida tasuks osata enne teha kui hakata lahendama ülesandeid näiteks Codewars lehel.
 
-Nende harjutuste lahendamiseks ei pruugi olla mõistlik küsida AI tööriistadelt koodist näiteid. ChatGPT ja GitHub Copilot on kindlasti head abivahendid ning ma soovitan neid reaalses töös ja ka õppimiseks kasutada aga küsimus peab olema püstitatud õigesti. [Loe siit kuidas ChatGPT-d õppimisel kasutada](https://github.com/timotr/harjutused/blob/main/ai-kasutamine.md)
+Nende harjutuste lahendamiseks ei pruugi olla mõistlik küsida AI tööriistadelt koodist näiteid. ChatGPT ja GitHub Copilot on kindlasti head abivahendid ning ma soovitan neid reaalses töös ja ka õppimiseks kasutada aga AI-le suunatud küsimus peab olema püstitatud õigesti.
 
 ## Eeldused ja kellele sobib
 
