@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puuviljade sorteerimine | Fruit sorting</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        .space-around {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .box {
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box0 {
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .hand {
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hidden {
+            display: none;
+        }
+        .invisible {
+            visibility: hidden;
+        }
+
+        code {
+            display: block;
+            white-space: pre-wrap;
+            background-color: #eee;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        pre {
+            margin: 0;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+        .green {
+            background-color: lightgreen;
+        }
+        .purple {
+            background-color: #F591F1;
+        }
+        .red {
+            background-color: salmon;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            <button id="next">Järgmine samm | Next step</button>
+            <button id="restart">Algusest peale | From beginning</button>
+        </div>
+        <div class="space-around">
+            <div>
+                <h6>Puuviljad | Fruits</h6>
+                <div class="box box0 invisible"></div>
+            </div>
+            <div>
+                <h6>Käes | In hand</h6>
+                <div class="hand invisible"></div>
+                <div id="comparison" class="hidden">
+                    <h6>Võrdlus | Comparison</h6>
+                    <div id="comparison-code">inHand === "apple"</div>
+                    <div id="comparison-values">"apple" === "apple"</div>
+                    <div id="comparison-result"><strong>true</strong> jah, on küll samad | yes, these are the same</div>
+                </div>
+            </div>
+            <div>
+                <h6>Õunad | Apples</h6>
+                <div class="box box1 invisible"></div>
+            </div>
+            <div>
+                <h6>Pirnid | Pears</h6>
+                <div class="box box2 invisible"></div>
+            </div>
+            <div>
+                <h6>Apelsinid | Oranges</h6>
+                <div class="box box3 invisible"></div>
+            </div>
+        </div>
+        <div class="space-around">
+            <div>
+                <h6>Kood | Code</h6>
+                <code>
+                    <span id="row1">let fruits = [<span id="f0">"pear"</span>, <span id="f1">"apple"</span>, <span id="f2">"apple"</span>, <span id="f3">"orange"</span>, <span id="f4">"apple"</span>, <span id="f5">"pear"</span>, <span id="f6">"orange"</span>, <span id="f7">"pear"</span>, <span id="f8">"apple"</span>, <span id="f9">"orange"</span>];</span>
+                    <span id="row2">let inHand;</span>
+                    <span id="row3">let apples = [];</span>
+                    <span id="row4">let pears = [];</span>
+                    <span id="row5">let oranges = [];</span>
+                    <span id="row6">let appleCount = 0;</span>
+                    for (<span id="row7-init">let i = 0</span>; <span id="row7-condition">i &lt; fruits.length</span>; <span id="row7-increment">i++</span>) {
+                        <span id="row8">inHand = fruits[i];</span>
+                        <span id="row9">if (inHand === "apple") {</span>
+                            <span id="row10">apples.push(inHand);</span>
+                            <span id="row11">appleCount += 1;</span>
+                        <span id="row12">} else if (inHand === "pear") {</span>
+                            <span id="row13">pears.push(inHand);</span>
+                        <span id="row14">} else if (inHand === "orange") {</span>
+                            <span id="row15">oranges.push(inHand);</span>
+                        }
+                    }
+                </code>
+            </div>
+            <div>
+                <h6>Muutujad | Variables</h6>
+                <pre>i = <span id="var-i">undefined</span></pre>
+                <pre>fruits = <span id="var-fruits">undefined</span></pre>
+                <pre>fruits.length = <span id="var-fruitsLength">undefined</span></pre>
+                <pre>inHand = <span id="var-inHand">undefined</span></pre>
+                <pre>apples = <span id="var-apples">undefined</span></pre>
+                <pre>pears = <span id="var-pears">undefined</span></pre>
+                <pre>oranges = <span id="var-oranges">undefined</span></pre>
+                <pre>applesCount = <span id="var-applesCount">undefined</span></pre>
+            </div>
+        </div>
+    </div>
+    <script>
+        let nextButton = document.getElementById("next");
+        let restartButton = document.getElementById("restart");
+        let hand = document.querySelector(".hand");
+        let box0 = document.querySelector(".box0");
+        let box1 = document.querySelector(".box1");
+        let box2 = document.querySelector(".box2");
+        let box3 = document.querySelector(".box3");
+        let varI = document.getElementById("var-i");
+        let varFruits = document.getElementById("var-fruits");
+        let varFruitsLength = document.getElementById("var-fruitsLength");
+        let varInHand = document.getElementById("var-inHand");
+        let varApples = document.getElementById("var-apples");
+        let varApplesCount = document.getElementById("var-applesCount");
+        let varPears = document.getElementById("var-pears");
+        let varOranges = document.getElementById("var-oranges");
+        let comparison = document.getElementById("comparison");
+        let comparisonCode = document.getElementById("comparison-code");
+        let comparisonValues = document.getElementById("comparison-values");
+        let comparisonResult = document.getElementById("comparison-result");
+
+        let fruits = undefined;//["pear", "apple", "apple", "orange", "apple", "pear", "orange", "pear", "apple", "orange"];
+        let inHand = undefined;
+        let apples = undefined;
+        let pears = undefined;
+        let oranges = undefined;
+        let applesCount = undefined;
+        let i = undefined;
+        let fruitEmoji = {
+            "pear": "🍐",
+            "apple": "🍎",
+            "orange": "🍊"
+        };
+        let step = 0;
+
+        function drawFruits() {
+            let html = "";
+            for (let a = 0; a < fruits?.length; a++) {
+                html += fruitEmoji[fruits[a]];
+            }
+            box0.innerHTML = html;
+            hand.innerHTML = fruitEmoji?.[fruits?.[i]] ?? "";
+            box1.innerHTML = fruitEmoji["apple"].repeat(apples?.length ?? 0);
+            box2.innerHTML = fruitEmoji["pear"].repeat(pears?.length ?? 0);
+            box3.innerHTML = fruitEmoji["orange"].repeat(oranges?.length ?? 0);
+        }
+
+        let previousVariables = {
+            i: undefined,
+            fruits: undefined,
+            inHand: undefined,
+            apples: undefined,
+            pears: undefined,
+            oranges: undefined,
+            applesCount: undefined
+        };
+        function drawVariables() {
+            varI.innerHTML = JSON.stringify(i);
+            varFruits.innerHTML = JSON.stringify(fruits);
+            varFruitsLength.innerHTML = fruits?.length ?? "undefined";
+            varInHand.innerHTML = JSON.stringify(inHand);
+            varApples.innerHTML = JSON.stringify(apples);
+            varPears.innerHTML = JSON.stringify(pears);
+            varOranges.innerHTML = JSON.stringify(oranges);
+            varApplesCount.innerHTML = JSON.stringify(applesCount);
+            // if change in variables, add highlight
+            for (let v in previousVariables) {
+                if (previousVariables[v] !== JSON.stringify(eval(v))) {
+                    document.getElementById("var-" + v).classList.add("highlight");
+                    if (v === "fruits")
+                        document.getElementById("var-fruitsLength").classList.add("highlight");
+                    previousVariables[v] = JSON.stringify(eval(v));
+                }
+            }
+        }
+
+        function restart() {
+            step = 0;
+            i = undefined;
+            fruits = undefined;
+            inHand = undefined;
+            apples = undefined;
+            pears = undefined;
+            oranges = undefined;
+            applesCount = undefined;
+            box0.innerHTML = "";
+            box0.classList.add("invisible");
+            hand.innerHTML = "";
+            hand.classList.add("invisible");
+            box1.innerHTML = "";
+            box1.classList.add("invisible");
+            box2.innerHTML = "";
+            box2.classList.add("invisible");
+            box3.innerHTML = "";
+            box3.classList.add("invisible");
+            previousVariables = {
+                i: undefined,
+                fruits: undefined,
+                inHand: undefined,
+                apples: undefined,
+                pears: undefined,
+                oranges: undefined,
+                applesCount: undefined
+            };
+            drawFruits();
+            drawVariables();
+            document.querySelectorAll(".highlight").forEach((el) => {
+                el.classList.remove("highlight");
+                el.classList.remove("green");
+                el.classList.remove("red");
+                el.classList.remove("purple");
+            });
+        }
+
+        function setHighlight(selector, color) {
+            document.querySelectorAll(".highlight").forEach((el) => {
+                el.classList.remove("highlight");
+                el.classList.remove("green");
+                el.classList.remove("red");
+                el.classList.remove("purple");
+            });
+            document.querySelector(selector).classList.add("highlight", color);
+        }
+
+        function nextStep() {
+            step++;
+            switch (step) {
+                case 1:
+                    fruits = ["pear", "apple", "apple", "orange", "apple", "pear", "orange", "pear", "apple", "orange"];
+                    box0.classList.remove("invisible");
+                    setHighlight("#row1");
+                    drawFruits();
+                    drawVariables();
+                    break;
+                case 2:
+                    inHand = undefined;
+                    hand.classList.remove("invisible");
+                    setHighlight("#row2");
+                    drawVariables();
+                    drawFruits();
+                    break;
+                case 3:
+                    apples = [];
+                    box1.classList.remove("invisible");
+                    setHighlight("#row3");
+                    drawVariables();
+                    break;
+                case 4:
+                    pears = [];
+                    box2.classList.remove("invisible");
+                    setHighlight("#row4");
+                    drawVariables();
+                    break;
+                case 5:
+                    oranges = [];
+                    box3.classList.remove("invisible");
+                    setHighlight("#row5");
+                    drawVariables();
+                    break;
+                case 6:
+                    applesCount = 0;
+                    setHighlight("#row6");
+                    drawVariables();
+                    break;
+                case 7:
+                    i = 0;
+                    setHighlight("#row7-init");
+                    drawVariables();
+                    break;
+                case 8:
+                    setHighlight("#row7-condition", i < fruits.length ? "green" : "red");
+                    document.getElementById("var-i").classList.add("highlight", "purple");
+                    document.getElementById("var-fruitsLength").classList.add("highlight", "purple");
+                    if (i >= fruits.length) {
+                        step = 19;
+                    }
+                    break;
+                case 9:
+                    inHand = fruits[i];
+                    setHighlight("#row8");
+                    document.querySelector("#f" + i).classList.add("highlight","purple");
+                    drawVariables();
+                    drawFruits();
+                    break;
+                case 10:
+                    setHighlight("#row9", inHand === "apple" ? "green" : "red");
+                    document.getElementById("var-inHand").classList.add("highlight", "purple");
+                    comparisonCode.textContent = "inHand === \"apple\"";
+                    comparisonValues.textContent = inHand + " === \"apple\"";
+                    if (inHand === "apple")
+                        comparisonResult.innerHTML = "<strong>" + (inHand === "apple") + "</strong> jah, on küll samad | yes, these are the same";
+                    else
+                        comparisonResult.innerHTML = "<strong>" + (inHand === "apple") + "</strong> ei ole samad | no, these are not the same";
+                    if (inHand !== "apple")
+                        step = 12;
+                    break;
+                case 11:
+                    setHighlight("#row10");
+                    apples.push(inHand);
+                    drawVariables();
+                    drawFruits();
+                    break;
+                case 12:
+                    applesCount += 1;
+                    setHighlight("#row11");
+                    drawVariables();
+                    break;
+                case 13:
+                    setHighlight("#row12", inHand === "pear" ? "green" : "red");
+                    document.getElementById("var-inHand").classList.add("highlight", "purple");
+                    comparisonCode.textContent = "inHand === \"pear\"";
+                    comparisonValues.textContent = inHand + " === \"pear\"";
+                    if (inHand === "pear")
+                        comparisonResult.innerHTML = "<strong>" + (inHand === "pear") + "</strong> jah, on küll samad | yes, these are the same";
+                    else
+                        comparisonResult.innerHTML = "<strong>" + (inHand === "pear") + "</strong> ei ole samad | no, these are not the same";
+                    if (inHand !== "pear")
+                        step = 14;
+                    break;
+                case 14:
+                    setHighlight("#row13");
+                    pears.push(inHand);
+                    drawVariables();
+                    drawFruits();
+                    break;
+                case 15:
+                    setHighlight("#row14", inHand === "orange" ? "green" : "red");
+                    document.getElementById("var-inHand").classList.add("highlight", "purple");
+                    comparisonCode.textContent = "inHand === \"orange\"";
+                    comparisonValues.textContent = inHand + " === \"orange\"";
+                    if (inHand === "orange")
+                        comparisonResult.innerHTML = "<strong>" + (inHand === "orange") + "</strong> jah, on küll samad | yes, these are the same";
+                    else
+                        comparisonResult.innerHTML = "<strong>" + (inHand === "orange") + "</strong> ei ole samad | no, these are not the same";
+                    if (inHand !== "orange")
+                        step = 16;
+                    break;
+                case 16:
+                    setHighlight("#row15");
+                    oranges.push(inHand);
+                    drawVariables();
+                    drawFruits();
+                    break;
+                case 17:
+                    i++;
+                    setHighlight("#row7-increment");
+                    drawVariables();
+                    step = 7;
+                    break;
+                default:
+                    break;
+            }
+            drawVariables();
+        }
+
+        nextButton.addEventListener("click", nextStep);
+        restartButton.addEventListener("click", restart);
+    </script>
+</body>
+
+</html>
