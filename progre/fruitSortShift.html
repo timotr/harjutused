@@ -123,8 +123,8 @@
 <span id="row4">let pears = [];</span>
 <span id="row5">let oranges = [];</span>
 <span id="row6">let appleCount = 0;</span>
-for (<span id="row7-init">let i = 0</span>; <span id="row7-condition">i &lt; fruits.length</span>; <span id="row7-increment">i++</span>) {
-    <span id="row8">inHand = fruits[i];</span>
+for (<span id="row7-init">let i = 0</span>; <span id="row7-condition">fruits.length &gt; 0</span>; <span id="row7-increment">i++</span>) {
+    <span id="row8">inHand = fruits.shift();</span>
     <span id="row9">if (inHand === "apple") {</span>
         <span id="row10">apples.push(inHand);</span>
         <span id="row11">appleCount += 1;</span>
@@ -190,7 +190,7 @@ for (<span id="row7-init">let i = 0</span>; <span id="row7-condition">i &lt; fru
                 html += fruitEmoji[fruits[a]];
             }
             box0.innerHTML = html;
-            hand.innerHTML = fruitEmoji?.[fruits?.[i]] ?? "";
+            hand.innerHTML = fruitEmoji?.[inHand] ?? "";
             box1.innerHTML = fruitEmoji["apple"].repeat(apples?.length ?? 0);
             box2.innerHTML = fruitEmoji["pear"].repeat(pears?.length ?? 0);
             box3.innerHTML = fruitEmoji["orange"].repeat(oranges?.length ?? 0);
@@ -319,15 +319,14 @@ for (<span id="row7-init">let i = 0</span>; <span id="row7-condition">i &lt; fru
                     drawVariables();
                     break;
                 case 8:
-                    setHighlight("#row7-condition", i < fruits.length ? "green" : "red");
-                    document.getElementById("var-i").classList.add("highlight", "purple");
+                    setHighlight("#row7-condition", fruits.length > 0 ? "green" : "red");
                     document.getElementById("var-fruitsLength").classList.add("highlight", "purple");
-                    if (i >= fruits.length) {
+                    if (fruits.length === 0) {
                         step = 19;
                     }
                     break;
                 case 9:
-                    inHand = fruits[i];
+                    inHand = fruits.shift();
                     setHighlight("#row8");
                     document.querySelector("#f" + i).classList.add("highlight","purple");
                     drawVariables();
