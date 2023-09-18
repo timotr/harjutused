@@ -33,11 +33,12 @@ Advanced SQL databases have
 
 4. Teeme harjutuse kus käivitasime olemasoleva SQL tabeli struktuuri customers.sql (Githubis on erinevate dialectide jaoks erinev customers-*.sql fail)
 Ja seejärel proovisime kirjutada paar lihtsat päringut, et info andmebaasist kätte saada:
-  4.1. Write a SQL query to retrieve all columns from a table named "Customers."
-  4.2. Retrieve only the "first_name" and "last_name" columns from a table named "Customers."
-  4.3. Retrieve all orders with a total amount greater than $100.
+4.1. Write a SQL query to retrieve all columns from a table named "Customers."
+4.2. Retrieve only the "first_name" and "last_name" columns from a table named "Customers."
+4.3. Retrieve all orders with a total amount greater than $100.
 
-5.1. Sissejuhatus relatsioonidesse (seosed). Ühes tabelis on customer_id ja teiseses tabelis on ka customer_id, see viitab, et need kaks kannet on omavahel seotud numbrid. Miks me kasutame seda numbrit mitte näiteks nime?
+5. Sissejuhatus relatsioonidesse (seosed)
+5.1. Ühes tabelis on customer_id ja teiseses tabelis on ka customer_id, see viitab, et need kaks kannet on omavahel seotud numbrid. Miks me kasutame seda numbrit mitte näiteks nime?
 5.2. NoSQL andmebaasides on ka seosed aga need pole alati andmebaasi tarkvara poolt kehtestatud ja kontrollitud. Saad tekitada olukorra kus customer_id on mõni number mida andmebaasis polegi ja viga ei paista kohe välja.
 5.3. Kirjutame LEFT JOIN päringu: SELECT orders.*, customers.first_name FROM orders LEF JOIN customers ON customers.customer_id = orders.customer_id;
 5.4. Näita JOIN'ide liikidest pilti, kui õpilased näitavad huvi välja ja aega on siis proovime erinevaid, mis need teevad.
