@@ -17,7 +17,7 @@ Lihtsustatud normaliseerimine mida praeguses näites kohe saab arutada:
 6. Tutvustan relatsioonilise SQL andmebaasi sõnavada: table, column (field), row (value), schema, query, type
 7. Valime Stack Overflow Survey põhjal ühe populaarse SQL andmebaasi.
 Teeme ise ühe andmebaasi, schema, tabeli ja sinna sisse 3 kannet. Näiteks kasutajate tabel ja 3 kasutajat, aga iga õpilane võib midagi suvalist ka teha - põhiline, et katsetavad.
-Tutvusta kuidas andmebaasiga ühendada: CLI, GUI ja API - soovita GUI'd aga jäta ka vaba valik, et struggle tekiks. Hiljem teeme reaaselt API ja ORM'idega ka.
+Tutvusta kuidas andmebaasiga ühendada: CLI, GUI ja API - soovita GUI'd aga jäta ka vaba valik, et struggle tekiks. Hiljem teeme reaaselt API ja ORM'idega ka. Sest andmebaas on service tüüpi, modulaarne rakendus, tal ei ole kohe GUI kaasa pandud. Näita kust saab aru kas hakkas tööle, kust saab restarti teha (Windows services)
 8. Rääkisin ka andmebaasis tabelite ja veergude (columns) nimetamisest, et see on kultuuriline ja sõltub meeskonnast ja vahel ka tehnoloogiatest mida kasutatakse. Näiteks ORM võib mõjutada millised valikud sul on.
 (See teema võib olla ka teise kohtumise lõpus või kolmanda alguses, oleneb kuidas tunnis jõuad.)
 
