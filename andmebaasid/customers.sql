@@ -31,3 +31,8 @@ VALUES
     ('2023-09-02', 2, 75.50),
     ('2023-09-03', 1, 200.25),
     ('2023-09-04', 3, 300.75);
+
+
+--  1. Write a SQL query to retrieve all columns from a table named "Customers."
+--  2. Retrieve only the "first_name" and "last_name" columns from a table named "Customers."
+--  3. Retrieve all orders with a total amount greater than $100.
