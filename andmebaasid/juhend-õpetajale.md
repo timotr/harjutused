@@ -48,7 +48,7 @@ SELECT orders.*, customers.first_name FROM customers, orders WHERE customers.cus
 Mina soovitan LEFT JOIN varianti kuna see võib olla paremini optimeeritud aga mõlemad võivad olla sama kiired - peame tegema katse (tulevas tunnis?).  
 5.7. Las proovivad nüüd teha veel neljada katse ka sama andmebaasiga (jätkab tänase tunni 4. punkti):
   4.4. Retrieve all orders and include customer first and last name to the output next to each order.  
-Näita milline see väljud umbes peab tulema:  
+Näita milline see väljund umbes peab tulema:  
 1	"2023-09-01"	1	150.00	"John"  
 2	"2023-09-02"	2	75.50	"Jane"  
 3	"2023-09-03"	1	200.25	"John"  
