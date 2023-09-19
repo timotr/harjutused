@@ -31,7 +31,7 @@ Advanced SQL databases have
  - backups
  - SQL - structured query language
 
-4. Teeme harjutuse kus käivitasime olemasoleva SQL tabeli struktuuri `customers-*.sql`. Seal on meelega ka üks viga, et saaks kogeda erinevaid toiminguid mis juhtuvad.
+4. Teeme harjutuse kus käivitasime olemasoleva SQL tabeli struktuuri `customers-*.sql`. Seal on meelega ka üks viga, mis pakub teatud uusi kogemusi nt tabeli kustutamise vajadus.
 Ja seejärel proovisime kirjutada paar lihtsat päringut, et info andmebaasist kätte saada:  
 4.1. Write a SQL query to retrieve all columns from a table named "Customers."  
 4.2. Retrieve only the "first_name" and "last_name" columns from a table named "Customers."  
