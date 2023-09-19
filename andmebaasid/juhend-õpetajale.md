@@ -23,7 +23,7 @@ Tutvusta kuidas andmebaasiga ühendada: CLI, GUI ja API - soovita GUI'd aga jät
 
 # Teine kohtumine
 1. Kordan andmebaasi liigitusi (document, key-value, table (column, row), graph) aga seekord lisan kohe lõppu ka järgmise punkti:
-2. Arutasime milliseid programmeermiskeeles olevaid andmetüüpe kasutame, et erinevaid struktuure ehitada. Kuidas teha table programmeermiskeeles ja mis on graaf (hästi üldiselt, et on directed ja mitte. näitan wiki lehte kus nimekiri erinevatest graafide liigitustest aga pikalt ei räägi).
+2. Arutasime milliseid programmeermiskeeles olevaid andmetüüpe kasutame, et erinevaid struktuure ehitada. Kuidas teha table programmeermiskeeles ja mis on graaf (Hästi üldiselt, et on directed ja mitte. Näitan wiki lehte kus nimekiri erinevatest graafide liigitustest aga pikalt ei räägi).
 3. Arutasime, miks ja millal valida keerulisem SQL database engine ja millal teha ise lihtne file based database.
 Advanced SQL databases have
  - memory cache
