@@ -57,3 +57,7 @@ https://www.reddit.com/r/dailyprogrammer/
 
 Võimalus teiste programeerijatega omavahel võistelda lahendades lühikesi ülesandeid.  
 https://www.codingame.com/multiplayer/clashofcode
+
+Algajatele iseseisvaks harjutamiseks mõeldud tasuta interaktiivsed kursused:
+Eesti keeles: https://www.ko-it.ee/
+Inglise keeles: https://www.codecademy.com/learn/introduction-to-javascript
