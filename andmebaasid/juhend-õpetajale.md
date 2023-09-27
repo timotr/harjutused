@@ -51,5 +51,19 @@ Mina soovitan LEFT JOIN varianti kuna see võib olla paremini optimeeritud aga m
 Näita milline see väljund umbes peab tulema:  
 1	"2023-09-01"	1	150.00	"John"  
 2	"2023-09-02"	2	75.50	"Jane"  
-3	"2023-09-03"	1	200.25	"John"  
+3	"2023-09-03"	1	200.25	"John"
+
+# Kolmas kohtumine
+1. Meenutame mida eelmine tund tegime,
+2. Seletan mis on Entity Relationship Diagram
+3. Räägin, et tasub teha märkmeid kui kliendi juures käite ja ta räägib mida on vaja teha, koosolek võib olla pikk ja pooled asjad lähevad meelest ära.
+4. Rollimäng - räägin kui jalgpalli treener kes vajab rakenduste mängijate oskuste arengu jälgimiseks, laste puhul vanemate kontaktinfo kogumiseks ja liikmetasude kontrollimiseks
+5. Õpilased proovivad selle info põhjal ise hakata andmebaasi disainima kasutades https://drawsql.app/ rakendust. Käin ringi ja jälgin mis vigu tehakse aga alati ei seleta neid kohe vaid pärast kõigile korraga.
+6. Teen sama andmebaasi ise ning räägin juurde. Küsin õpilastelt mis tabeleid meil veel puudu on ja arvamust mida inglise keeles nimeks panna neile. Samuti arutan andmetüüpide valikute üle.
+7. Seletan Excelis / Google Spreadsheetis kuidas tabelid(sheetid) seda infot hoidma hakkavad ja mis on relatsioon. Näitan kuidas üks id ühes sheetis saab olla teise sheeti kannetega seotud.
+8. Teeme tabelite vahele one-to-many seosed. Seletan, et tihti on vaja many-to-many seost aga selle tegemiseks praktikas tehakse vahetabel. Seletan, et primary key on enamasti see kus otsas on ühenduse "one" ots ja mitte "boldis" (näitan visuaalselt sest seletan primary ja foreign pärast pausi) teine "tablename_id" ots on 3 haruga, nagu sinna saaks mitu tükki lisada. Kasutan lauseid "Ühel mängijal saab olla mitu treeningut ja ühel treeningul saab olla mitu mängijat. Järelikult on vaja mitu-mitmele seost" jne.
+9. Pärast pausi seletan mis on primary key, et nt duplikaatide kustutamisel tuleb see abiks. Mis on foreign key ja mis on index.
+10. Seletan indexite puhul plussid miinused lugemise ja salvestamise kiiruse osas.
+11. Seletan, et indeksid tehakse binary tree struktuuride abil, joonistan kuidas need kokku pannakse (sorteerimine ja siis rekursiivselt pooleks jaotamine).
+12. Teen Excelis / Google Spreadsheetis näite kuidas paroolid on user tabelis. Seletan, et parool peab kaitsma andmelekke eest räsimisega (hash) ja soolamisega (salt). Näitan vanemat md5 ja sha1 algoritmi ja seletan, et need tänapäeval liiga kiired ja palju collisioneid. Ka liiga pikal paroolil võib olla collisioneid. Ära keela liiga pikka parooli aga hoiata kasutajat, et parooli lõpp lõigatakse maha. On uuemad räsi algoritmid mis teevad neid aeglasemaks ja seetõttu on raske brute-force'ida ja rainbow tabeleid genereerida. Salt aitab lühikesi paroole reverse lookup eest kaitsta. Seletan, et enamus keeltes on hashimise jaoks crypto teegid olemas või built-in funktsioonid. Teen näidis if lause kuidas sisselogimisel siis räsi võrdlemine käib.
 
