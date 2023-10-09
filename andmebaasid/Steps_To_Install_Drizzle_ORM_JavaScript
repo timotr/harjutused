@@ -19,3 +19,6 @@ Steps to get Drizzle ORM installed on empty JavaScript project and generate foot
 "migrate": "drizzle-kit push:pg",
 7.4. Run generate command and then migrate command
 8. Check if tables where created in database
+9. If you are able, add foreign key constraints for
+"players - teams" and "players - playerGuardians - guardians"
+9.1. Generate new migration after changes
