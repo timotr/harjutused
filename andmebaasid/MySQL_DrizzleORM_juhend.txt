@@ -10,3 +10,14 @@ Juhend Drizzle ORM-i installimiseks tühja JavaScripti projekti ja jalgpalliklub
 6. Vaata juhendis järgmist peatükki kus selgitatakse kuidas schema defineerida
 6.1. See on väike projekt seega üks fail schema jaoks peaks olema piisav. Vaata, et ikka õige andmebaasi koodi kopeerid.
 6.2. Muuda näites tabelite nimed ära, võta tabelid jalgpalli klubi näitel: players, guardians, playerGuardians
+7. Proovime käivitada Drizzle Kit käsu mis loob schema põhjal migratsiooni failid. Vaata Drizzle Kit juhendit.
+7.1. Tee omal valikul drizzle.config fail
+7.2. Update schema folder, output folder, driver and dbCredentials values in config. There are more examples how to write this config in "Quick start" section of Drizzle Kit doc.
+7.3. Add drizzle kit commands to package.json script object
+"generate": "drizzle-kit generate:pg",
+"migrate": "drizzle-kit push:pg",
+7.4. Run generate command and then migrate command
+8. Check if tables where created in database
+9. If you are able, add foreign key constraints for
+"players - teams" and "players - playerGuardians - guardians"
+9.1. Generate new migration after changes
