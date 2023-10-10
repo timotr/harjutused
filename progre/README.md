@@ -21,6 +21,7 @@ Keerukuse järjekorras, lihtsamad enne:
 - [easy](https://github.com/timotr/harjutused/blob/main/progre/easy.md) on kõige kergemad harjutused, lähevad failis sees järjest raskemaks.
 - [checkTemp](https://github.com/timotr/harjutused/blob/main/progre/checkTemp.md) (arvestuslik)
 - [guessTheNumber](https://github.com/timotr/harjutused/blob/main/progre/guessTheNumber.md)
+- [arrays](https://github.com/timotr/harjutused/blob/main/progre/arrays.md)
 - [countCode](https://github.com/timotr/harjutused/blob/main/progre/countCode.md) (arvestuslik)
 - [perfectlyBalanced](https://github.com/timotr/harjutused/blob/main/progre/perfectlyBalanced.md)
 - [letterValueSum](https://www.reddit.com/r/dailyprogrammer/comments/onfehl/20210719_challenge_399_easy_letter_value_sum/)
