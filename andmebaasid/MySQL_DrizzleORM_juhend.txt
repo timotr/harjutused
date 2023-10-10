@@ -12,12 +12,12 @@ Juhend Drizzle ORM-i installimiseks tühja JavaScripti projekti ja jalgpalliklub
 6.2. Muuda näites tabelite nimed ära, võta tabelid jalgpalli klubi näitel: players, guardians, playerGuardians
 7. Proovime käivitada Drizzle Kit käsu mis loob schema põhjal migratsiooni failid. Vaata Drizzle Kit juhendit.
 7.1. Tee omal valikul drizzle.config fail
-7.2. Update schema folder, output folder, driver and dbCredentials values in config. There are more examples how to write this config in "Quick start" section of Drizzle Kit doc.
-7.3. Add drizzle kit commands to package.json script object
-"generate": "drizzle-kit generate:pg",
-"migrate": "drizzle-kit push:pg",
-7.4. Run generate command and then migrate command
-8. Check if tables where created in database
-9. If you are able, add foreign key constraints for
+7.2. Määra config failis schema fail, output folder, driver ja dbCredentials. Drizzle Kit "Quick start" peatükis on veel näited sellest confist.
+7.3. Lisame dizzle-kit generate ja meie enda migrate faili käsud package.json scripts objekti
+"generate": "drizzle-kit generate:mysql",
+"migrate": "node ./db/migrate.js",
+7.4. Käivita generate (`npm run generate`) käsk enne ja siis migrate
+8. Kontrolli kas andmebaasi tekkisid need tabelid (MySQL Workbenchiga)
+9. Lisa schemasse ka teams tabel ja tee constraintid:
 "players - teams" and "players - playerGuardians - guardians"
-9.1. Generate new migration after changes
+9.1. Genereeri uus migratsioon pärast muudatust (`npm run generate`)
