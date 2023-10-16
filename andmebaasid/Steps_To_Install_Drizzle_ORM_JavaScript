@@ -8,6 +8,7 @@ Steps to get Drizzle ORM installed on empty JavaScript project and generate foot
 5.1. Install packages needed
 5.2. Create new file for migration script
 5.3. Copy code example from documentation (there is something missing from example, we'll find the missing part later)
+5.4. Change the connection parameters like username, password and database name (you have to also create the actual database in pgAdmin)
 6. Let's read about how to create schema. See 'Manage schema' section in Drizzle documentation.
 6.1. It's a small project so one file for schema should be enough. Check that you copy the right database example.
 6.2. Rename tables and fields of the example based on football club database. Make only tables: players, teams, guardians, playerGuardians
