@@ -7,6 +7,7 @@ Juhend Drizzle ORM-i installimiseks tühja JavaScripti projekti ja jalgpalliklub
 5. Alusta 'Get started' sektsioonist vastavalt mis andmebaasi kasutad.
 5.1. Installi vajalikud package'id mis juhendis kirjas
 5.2. Tee migratsiooni skripti jaoks uus fail kuhu saad selle connection näite kopeerida
+5.3. Asenda ühenduse parameetrid enda andmebaasi omadega: username, password, schema (schema pead käsiti tegema andmebaasi nt MySQL Workbenchiga)
 6. Vaata juhendis järgmist peatükki kus selgitatakse kuidas schema defineerida
 6.1. See on väike projekt seega üks fail schema jaoks peaks olema piisav. Vaata, et ikka õige andmebaasi koodi kopeerid.
 6.2. Muuda näites tabelite nimed ära, võta tabelid jalgpalli klubi näitel: players, guardians, playerGuardians
