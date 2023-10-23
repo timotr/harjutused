@@ -155,3 +155,9 @@ Proovige luua skript, mis lisab mängijad käsurea abil andmebaasi.
 # Seitsmes tund
 
 Jätkame jalgpalliklubi rakenduse ehitamist. Seekord lisame veebiserveri, et andmeid lisada, lugeda, muuta ja kustutada (CRUD operations).
+
+1. Setup web server using Express
+2. Create player by posting HTML form data.
+3. List existing players on the webpage
+4. Delete a player
+5. Bonus: update a player
