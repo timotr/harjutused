@@ -3,7 +3,7 @@
 Selles juhendis on kohtumised 4 akadeemilist tundi pikad.
 
 ## Teemade ülevaade:
-1. while ja for, operaatorid (max 5), if on nagu while aga ei loopi [Loe tervet tunni plaani](#esimene-kohtumine)
+1. **[Esimese kohtumise detailne plaan](#esimene-kohtumine)** while ja for, operaatorid (max 5), if on nagu while aga ei loopi
 2. String, boolean, number
 3. Arrays
 4. Objects
