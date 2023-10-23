@@ -4,7 +4,7 @@ Selles juhendis on kohtumised 4 akadeemilist tundi pikad.
 
 ## Teemade ülevaade:
 1. **[Esimene kohtumine](#esimene-kohtumine)** while ja for, operaatorid (max 5), if on nagu while aga ei loopi
-2. **[Teine kohtumine](#teine-kohtumine)** String, boolean, number
+2. **[Teine kohtumine](#teine-kohtumine)** String, boolean, number, [guessTheNumber](https://github.com/timotr/harjutused/blob/main/progre/guessTheNumber.md)
 3. Arrays
 4. Objects
 5. [Kahoot Basics II](https://create.kahoot.it/details/91b07b47-f141-4ace-a6ae-ccb4959c0765)
