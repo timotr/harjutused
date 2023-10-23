@@ -1,15 +1,15 @@
 # Teemade jaotus kohtumiste järgi
 
 ## 4 ak. tundi kohtumise kohta:
-1. while ja for, operaatorid (max 5), 
-2. 
-3. 
-4. 
-5. 
-6. 
+1. while ja for, operaatorid (max 5), if on nagu while aga ei loopi
+2. String, boolean, number
+3. Arrays
+4. Objects
+5. Kahoot basics II
+6. Kahoot arrays
 7. Analüüsime koos [algoritme](#erinevad-algoritmid-mida-koos-analüüsida) (max 2, muidu väsivad ära)
-8. 
-9. 
+8. Kahoot objects
+9. Analüüsime koos [algoritme](#erinevad-algoritmid-mida-koos-analüüsida) (max 2, muidu väsivad ära)
 10. 
 11. 
 12. 
