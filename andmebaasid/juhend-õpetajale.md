@@ -67,3 +67,91 @@ Näita milline see väljund umbes peab tulema:
 11. Seletan, et indeksid tehakse binary tree struktuuride abil, joonistan kuidas need kokku pannakse (sorteerimine ja siis rekursiivselt pooleks jaotamine).
 12. Teen Excelis / Google Spreadsheetis näite kuidas paroolid on user tabelis. Seletan, et parool peab kaitsma andmelekke eest räsimisega (hash) ja soolamisega (salt). Näitan vanemat md5 ja sha1 algoritmi ja seletan, et need tänapäeval liiga kiired ja palju collisioneid. Ka liiga pikal paroolil võib olla collisioneid. Ära keela liiga pikka parooli aga hoiata kasutajat, et parooli lõpp lõigatakse maha. On uuemad räsi algoritmid mis teevad neid aeglasemaks ja seetõttu on raske brute-force'ida ja rainbow tabeleid genereerida. Salt aitab lühikesi paroole reverse lookup eest kaitsta. Seletan, et enamus keeltes on hashimise jaoks crypto teegid olemas või built-in funktsioonid. Teen näidis if lause kuidas sisselogimisel siis räsi võrdlemine käib.
 
+# Neljas tund
+
+Täna on teil tunnis iseseisev töö disainida hobuste tallile haldus-süsteemi andmebaas. Töö võtab umbes 45-120 minutit aega. Vihjeks, et andmebaasis peaks olema minimaalselt 7 tabelit - võib olla ka rohkem. ERD skeem koos seostega ning indeksitega tuleb esitada tänase tunni lõpus. Näiteks ekraanipilt (screenshot) mulle emaili peale või proovida share'ida otse DrawSQL lehelt. Hoidke töö pilves alles.
+
+Ülesande tekst:
+Tere! Ma olen talli juhataja ja vastutan igapäevaselt meie hobutalli toimimise eest. Meil on mitu olulist ülesannet, mida sooviksime tarkvara abil paremini hallata ja jälgida.
+
+Meil on mitmeid hobuseid, igaühel neist on oma nimi, vanus, tervislik seisund, talliboksi number ja treeninggraafikud. Soovime tarkvara, mis võimaldaks meil hõlpsasti sisestada ja uuendada neid andmeid. Vaja on hoida ka hobuste omanike andmeid.
+
+Lisaks oleks vaja pidada arvet talli varustuse üle. Oleks vaja lihtsat inventari loetelu koos vara väärtusega.
+
+Hobuste puhul on veel oluline nende tervise jälgimine. Tahame säilitada veterinaarsete protseduuride ajalugu, näiteks vaktsineerimised ja ravikuurid.
+
+Praegu on meil töötajate kontaktandmed ja töögraafikud tehtud Excelis, sooviks need ka kanda süsteemi.
+
+Oluline on ka kasutajaõiguste jaotamine, soovime osadel töötajatel piirata teatud andmetele ligi saamist. Hobuste omanikel võiks olla ka võimalus konto teha ja näidata neile hobusete veterinaarsete toimingute ajalugu.
+
+
+
+In English
+
+Today you have an independent task in class to design a database for a horse stable's management system. The work takes about 45-120 minutes. As a hint, there should be at least 7 tables in the database - there may be more. The ERD diagram with connections and indexes must be presented at the end of today's lesson. You can take a screenshot and send it to my email or share directly from DrawSQL website if you can. Save it in cloud just on case.
+
+Task text:
+Hello! I am the manager of the stable and I am responsible for the day-to-day operation of our horse stable. We have several important tasks that we would like to better manage and track with software.
+
+We have several horses, each with its own name, age, health status, stall number and training schedules. We want software that allows us to easily enter and update this data. It is also necessary to keep the data of the horse owners.
+
+In addition, it would be necessary to keep an account of the equipment of the stable. A simple inventory list with the value of the equipment would be required.
+
+In the case of horses, monitoring their health is also important. We want to keep a history of veterinary procedures, such as vaccinations and courses of treatment.
+
+Currently, we have employees' contact information and work schedules made in Excel, we would also like to transfer them to the system.
+
+The distribution of user rights is also important, we want to restrict access to certain data for some employees based on the roles. Owners could also have the option to create an account and see the history of the horses' veterinary operations.
+
+# Viies tund
+
+Meenutame eelmiste tundide teemasid
+Vaatame mis on ORM. Proovime JavaScriptis Drizzle ORM'i koos jalgpalli andmebaasiga.
+
+ORM are able to import existing database schema
+Data first -> auto generates code (input SQL)
+Schema first -> auto generates database and code (input JS or custom language)
+Code first -> auto generates database (input JS)
+
+Tunnis tehtud sammud. Kõiki detaile seal ei ole, aitasime tunnis üksteisel vigu leida kui tekkis aga kõike pole võimalik kirja panna.
+Juhend Drizzle ORM-i installimiseks tühja JavaScripti projekti ja jalgpalliklubi andmebaasi loomiseks:
+1. Tee uus kaust projekti jaoks
+2. Ava projekti kaustas käsurida
+3. Loo package manager meta fail käsuga 'npm init'. Ilma valikuteta sai teha 'npm init -y'
+4. Ava Drizzle veebilehelt dokumentatsioon
+5. Alusta 'Get started' sektsioonist vastavalt mis andmebaasi kasutad.
+5.1. Installi vajalikud package'id mis juhendis kirjas
+5.2. Tee migratsiooni skripti jaoks uus fail kuhu saad selle connection näite kopeerida
+6. Vaata juhendis järgmist peatükki kus selgitatakse kuidas schema defineerida
+6.1. See on väike projekt seega üks fail schema jaoks peaks olema piisav. Vaata, et ikka õige andmebaasi koodi kopeerid.
+6.2. Muuda näites tabelite nimed ära, võta tabelid jalgpalli klubi näitel: players, guardians, playerGuardians
+7. Proovime käivitada Drizzle Kit käsu mis loob schema põhjal migratsiooni failid. Vaata Drizzle Kit juhendit.
+7.1. Tee omal valikul drizzle.config fail
+7.2. Määra config failis schema fail, output folder, driver ja dbCredentials. Drizzle Kit "Quick start" peatükis on veel näited sellest confist.
+7.3. Lisame dizzle-kit generate ja meie enda migrate faili käsud package.json scripts objekti
+"generate": "drizzle-kit generate:mysql",
+"migrate": "node ./db/migrate.js",
+7.4. Käivita generate (`npm run generate`) käsk enne ja siis migrate
+8. Kontrolli kas andmebaasi tekkisid need tabelid (MySQL Workbenchiga)
+9. Lisa schemasse ka teams tabel ja tee constraintid:
+"players - teams" and "players - playerGuardians - guardians"
+9.1. Genereeri uus migratsioon pärast muudatust (`npm run generate`)
+
+# Kuues tund
+
+Jätkame jalgpalliklubi rakenduse ehitamist. Kontrollime, et kõik on jõudnud koodiga sama kaugele ja ühendus töötab.
+Seejärel hakkame tegema mängijate lisamise ja lugemise päringuid.
+
+Proovige luua skript, mis lisab mängijad käsurea abil andmebaasi.
+1. Looge uus JS-fail, importige sinna andmebaasi ühenduse object nt schema failist.
+2. Kirjutage insert päring Drizzle'i abil.
+3. Käivitage andmete sisestamiseks skript "node yourscript.js".
+4. Kontrollige, kas andmebaasis on andmed olemas.
+5. Lisage mängija nime sisestamise võimalus käsurea parameetrite kaudu. Nt "node yourscript.js Pavel Aleksejev"
+
+6. Tehke index.js sisse web server (näiteks Express.js abil)
+7. Võtke POST meetodiga HTML form data vastu ja sisestage selle abil mängija andmebaasi
+
+# Seitsmes tund
+
+Jätkame jalgpalliklubi rakenduse ehitamist. Seekord lisame veebiserveri, et andmeid lisada, lugeda, muuta ja kustutada (CRUD operations).
