@@ -13,11 +13,12 @@ Selles juhendis on kohtumised 4 akadeemilist tundi pikad.
 8. [Kahoot Objects](https://create.kahoot.it/details/5fbe65d9-6f97-46f9-a2d7-4b4b79177af1)
 9. Analüüsime koos [algoritme](#erinevad-algoritmid-mida-koos-analüüsida) (max 2, muidu väsivad ära)
 10. 
-11. 
+11. Error handling, kuidas lugeda stack trace'i, try/catch, avoid nesting ifs
 12. 
 13. 
 14. 
-15. 
+15. Promise?
+16. 
 
 ## Esimene kohtumine
 
