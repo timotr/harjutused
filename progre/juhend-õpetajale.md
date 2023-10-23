@@ -1,7 +1,9 @@
-# Teemade jaotus kohtumiste järgi
+# Programmeerimise aluste juhend õpetajale
 
-## 4 ak. tundi kohtumise kohta:
-1. while ja for, operaatorid (max 5), if on nagu while aga ei loopi
+Selles juhendis on kohtumised 4 akadeemilist tundi pikad.
+
+## Teemade ülevaade:
+1. while ja for, operaatorid (max 5), if on nagu while aga ei loopi [Loe tervet tunni plaani](#esimene-kohtumine)
 2. String, boolean, number
 3. Arrays
 4. Objects
@@ -17,8 +19,10 @@
 14. 
 15. 
 
+## Esimene kohtumine
 
-# Erinevad algoritmid mida koos analüüsida
+
+## Erinevad algoritmid mida koos analüüsida
 
 Võta korraga ainult 1-2 tükki. Kogemus näitab, et pärast teist nad väsivad ära.
 
