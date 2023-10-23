@@ -7,7 +7,7 @@
 4. 
 5. 
 6. 
-7. Analüüsime koos [algoritme](#Erinevad-koodinäited/algoritmid-mida-koos-analüüsida) (max 2, muidu väsivad ära)
+7. Analüüsime koos [algoritme](#erinevad-algoritmid-mida-koos-analüüsida) (max 2, muidu väsivad ära)
 8. 
 9. 
 10. 
@@ -18,7 +18,7 @@
 15. 
 
 
-# Erinevad koodinäited/algoritmid mida koos analüüsida
+# Erinevad algoritmid mida koos analüüsida
 
 ### Reversed string loop
 ```js
