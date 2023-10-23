@@ -20,6 +20,8 @@
 
 # Erinevad algoritmid mida koos analüüsida
 
+Võta korraga ainult 1-2 tükki. Kogemus näitab, et pärast teist nad väsivad ära.
+
 ### Reversed string loop
 ```js
 let inputString = "hello";
