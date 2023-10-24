@@ -5,30 +5,31 @@ Selles juhendis on kohtumised 4 akadeemilist tundi pikad.
 ## Tundide struktuur
 
 ### A) Kui tunni eesmärk on uus teema (hea oleks max 3h)
-20min kordamine - notepadis, õpilased ütlevad teemad
-45min uus teema
-90min harjutuste tegemine
+20min kordamine - notepadis, õpilased ütlevad teemad  
+45min uus teema  
+90min harjutuste tegemine  
 
 ### B) Kui tunni eesmärk on kordamine (hea oleks 4h)
-35min kordamine - kahoot või notepadis
-35min kiire ülesanne (mingi teine set kiirete harjutuste jaoks, igaüks valib sealt ühe sellise harjutuse mille ta suudab kiirelt ära teha)
-35min analüüsime koos koodi
-75min suurem harjutus
+35min kordamine - kahoot või notepadis  
+35min kiire ülesanne (mingi teine set kiirete harjutuste jaoks, igaüks valib sealt ühe sellise harjutuse mille ta suudab kiirelt ära teha)  
+35min analüüsime koos koodi  
+75min suurem harjutus  
 
-Kiirete harjutuste set võiks olla midagi Duolingo moodi kus kood on ees ja all on valikud mida sinna tühja spoti panna.
-Saaks teha mitu tükki kiiresti järjest. Goal: ülesannete kogus ja time limit on alguses valikus.
-Tracking code, ise paned mingi koodi kui tahad näha statistikat. See salvestab kesksesse andmebaasi, tracking koodi jagades saavad teised näha sinu tulemusi.
-Tracking koodiga krüpteerida andmed? Linnuke, annan loa õpetajal näha minu tulemusi (sinu krüpteerimisvõti läheb mulle listi). Failid on hashed tracking code.
-Topics list
-Sulud
+Kiirete harjutuste set võiks olla midagi Duolingo moodi kus kood on ees ja all on valikud mida sinna tühja spoti panna.  
+Saaks teha mitu tükki kiiresti järjest. Goal: ülesannete kogus ja time limit on alguses valikus.  
+Tracking code, ise paned mingi koodi kui tahad näha statistikat. See salvestab kesksesse andmebaasi, tracking koodi jagades saavad teised näha sinu tulemusi.  
+Tracking koodiga krüpteerida andmed? Linnuke, annan loa õpetajal näha minu tulemusi (sinu krüpteerimisvõti läheb mulle listi). Failid on hashed tracking code.  
+Topics list  
+Sulud  
 
 ## Teemad
 - while, for, if, function
 - andmetüübid: kuidas peale vaadates ära tunneme, mis omadused neil on
 - andmetüübid individuaalselt: CRUD ja teised meetodid
 - 
-- 
+- error handling, kuidas lugeda stack trace'i, try/catch, avoid nesting ifs
 - nesting, parent, child, sibling, nested ifs
+- kompilaatorid ja interpretaatorid
 
 ## Teemad mida ma tahaks näidata aga ei tea kus
 Kardan õpilasi uute terminitega üle koormata. Need teemad võiks tulla sujuvalt mõne harjutuse käigus kus need on disainis eelistatud ja tulevad naturaalselt välja.
@@ -183,7 +184,28 @@ Alustame suuliste teadmiste kontrolliga. Iga tund küsin umbes viielt õpilaselt
 
 ## Kaheteistkümnes kohtumine
 
-## Kolmeteistkümnes kohtumine
+## Kompilaatorid ja interpretaatorid
+
+Need kaks on tööriistad (ka programmid) mille abil tõlgitakse programmeermiskeel protsessorile sobivaks.
+Kuna protsessorite ehitusi on erinevaid siis neil on ka erinev käsustik.
+Mõnel on vähem operaatoreid aga seetõttu kiirem clock rate, teisel on ägedam disan ja rohkem operaatoreid, mis tähendavab vähem manuaalset tööd inimesele kes ehitab programmeermiskeelt.
+Aga kuna neid disaine on nii palju siis osad inimesed pühendavad oma aja high-level programmeerimiskeelte peale mis jooksevad erinevate protsessorite peal.
+
+Teoorias peaks iga programmeermiskeele jaoks olema võimalik luua mõlemad nii kompilaator kui ka interpretaator.
+Kompilaator tõlgib JavaScripti käsklused otse masinkoodi.
+Interpreteeritav keel loob tihtipeale veel ühe vahepealse masinkoodi laadse keele.
+Ma arvan, et neid on kergem tõlkida protsessori koodi, seega saab neid kiiremini levitada erinevatele platvormidele.
+
+Varem olid kompileeritavad keeled kiiremad, sest kompilaatoreid oli aastaid arendatud aga tänaseks on leitud tehnikaid mis suudavad interpreteeritava keele ka väga kiireks teha.
+
+Mõned keerulised sõnad mida saab interpretaatoriga teha mida kompilaatoriga pigem ei saa:
+platform independence (Java's byte code, for example)
+reflection and reflective usage of the evaluator (e.g. a first-order eval function)
+dynamic typing
+ease of debugging (it is easier to get source code information in interpreted languages)
+small program size (since interpreted languages have flexibility to choose instruction code)
+dynamic scoping
+automatic memory management
 
 ## Kahooti lingid
 
