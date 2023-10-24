@@ -23,16 +23,20 @@ Topics list
 Sulud
 
 ## Teemad
+- kus koodi saab käivitada, mis teisi töövahendeid programmeermisel kasutame
 - while, for, if, function
 - andmetüübid: kuidas peale vaadates ära tunneme, mis omadused neil on
 - andmetüübid individuaalselt: CRUD ja teised meetodid
 - 
-- 
+- täna levinud failiformaadid: CSV, XML, JSON, YAML
 - nesting, parent, child, sibling, nested ifs
+- seome õpitud keele teiste tehnoloogiatega: HTML, HTTP, OS/failisüsteem (aga hästi pealiskaudselt)
 
-## Teemad mida ma tahaks näidata aga ei tea kus
+## Teemad mida ma tahaks näidata aga ei tea kus, võiks olla valikulised või randomly tulla
 Kardan õpilasi uute terminitega üle koormata. Need teemad võiks tulla sujuvalt mõne harjutuse käigus kus need on disainis eelistatud ja tulevad naturaalselt välja.
 - tsüklis break ja continue
+- switch
+- kompilaatorid ja interpretaatorid
 
 ## Teemad mida mina arvan, et peaks kindlasti välja jätma
 Need teemad on algajale liiga segadust tekitavad. Neid saab omavahel arutada ainult kogenud arendajad. Need teemad peaks olema valikulised.
