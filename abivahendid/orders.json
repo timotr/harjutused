@@ -1,8 +1,8 @@
 [
   {
     "id": 2113,
-    "orderNumber": "E210126001",
-    "createdAt": "2021-01-26 16:04:24",
+    "orderNumber": "E231114001",
+    "createdAt": "2023-11-14 16:04:24",
     "clientName": "Kalle Tali",
     "deliveryType": "Omniva smartpost",
     "deliveryValue": 178,
@@ -35,11 +35,11 @@
   },
   {
     "id": 2114,
-    "orderNumber": "E210126001",
-    "createdAt": "2021-01-26 16:04:24",
+    "orderNumber": "E231129001",
+    "createdAt": "2023-11-29 16:22:59",
     "clientName": "Sofia Mäkinen",
-    "deliveryType": "Omniva smartpost",
-    "deliveryValue": 178,
+    "deliveryType": "Itella smartpost",
+    "deliveryValue": 77,
     "rows": [
       {
         "article_id": 42,
@@ -47,7 +47,7 @@
         "product_code": "987654",
         "price": 599.99,
         "amount": 3,
-        "vat": 0.18
+        "vat": 0.2
       },
       {
         "article_id": 53,
@@ -55,17 +55,17 @@
         "product_code": "123456",
         "price": 129.5,
         "amount": 2,
-        "vat": 0.21
+        "vat": 0.2
       }
     ]
   },
   {
     "id": 2117,
-    "orderNumber": "E210126001",
-    "createdAt": "2021-01-26 16:04:24",
+    "orderNumber": "E221213001",
+    "createdAt": "2023-12-13 10:23:04",
     "clientName": "Everly Garcia",
     "deliveryType": "Omniva smartpost",
-    "deliveryValue": 178,
+    "deliveryValue": 222,
     "rows": [
       {
         "article_id": 86,
@@ -79,11 +79,11 @@
   },
   {
     "id": 2118,
-    "orderNumber": "E210126001",
-    "createdAt": "2021-01-26 16:04:24",
+    "orderNumber": "E231218001",
+    "createdAt": "2023-12-18 10:53:54",
     "clientName": "Sarah Kask",
     "deliveryType": "Omniva smartpost",
-    "deliveryValue": 178,
+    "deliveryValue": 144,
     "rows": [
       {
         "article_id": 75,
@@ -97,11 +97,11 @@
   },
   {
     "id": 2120,
-    "orderNumber": "E210126001",
-    "createdAt": "2021-01-26 16:04:24",
+    "orderNumber": "E231227001",
+    "createdAt": "2023-12-27 10:23:22",
     "clientName": "Ilja Ivanov",
-    "deliveryType": "Omniva smartpost",
-    "deliveryValue": 178,
+    "deliveryType": "DPD smartpost",
+    "deliveryValue": 89,
     "rows": [
       {
         "article_id": 86,
@@ -115,8 +115,8 @@
   },
   {
     "id": 2123,
-    "orderNumber": "E210126001",
-    "createdAt": "2021-01-26 16:04:24",
+    "orderNumber": "E231227002",
+    "createdAt": "2023-12-27 09:55:14",
     "clientName": "Kalle Tali",
     "deliveryType": "Omniva smartpost",
     "deliveryValue": 178,
