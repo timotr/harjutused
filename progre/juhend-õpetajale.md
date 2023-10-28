@@ -27,6 +27,9 @@ Sulud
 - while, for, if, function
 - andmetüübid: kuidas peale vaadates ära tunneme, mis omadused neil on
 - andmetüübid individuaalselt: CRUD ja teised meetodid
+- sõnavara Object: properties, key, value, method; Array: index
+- 
+- 
 - 
 - täna levinud failiformaadid: CSV, XML, JSON, YAML
 - nesting, parent, child, sibling, nested ifs
