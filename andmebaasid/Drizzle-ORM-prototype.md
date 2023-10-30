@@ -2,7 +2,7 @@ This is a summary of the project to try out ORM.
 Teacher will help you to go through all the steps and fill in the missing knowledge in the classes (you may need to ask for help).
 If you don't know some of those words you should learn about them by searching from web or asking from teacher or ChatGPT.
 
-Completing this task should take you 4-8 hours.
+Completing this task should take you 6-12 hours.
 
 You have to know:
 - What is migration. Ask ChatGPT "What is migration in database context?"
