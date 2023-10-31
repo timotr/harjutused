@@ -4,6 +4,12 @@ Ma tahaks näidata siin ka oma tempot, et oleks ülevaade tundide/nädalate lõi
 
 Kõik kohtumised on siin 4 akadeemilist tundi. Kahe tunniga läheb pisut kiirega, 4 on hea - siis nad jõuavad ise proovida ja katsetada ka ning ma jõuan mõningaid aidata kellel vead tekivad.
 
+TODO:
+Valmista ette mõned andmebaasid päris andmetega kus harjutada päringuid ja õpilased näeks struktuure.
+Self-reference - kategooriad ja tooted, kaustad ja failid
+Tööaja graafiku hoidmine andmebaasis
+Rollide süsteemid
+
 Teemad mida käsitlen:
 # Esimene kohtumine
 1. Arutame õpilastega, mis on andmebaas, mille järgi me selle ära tunneme.
@@ -155,9 +161,15 @@ Proovige luua skript, mis lisab mängijad käsurea abil andmebaasi.
 # Seitsmes tund
 
 Jätkame jalgpalliklubi rakenduse ehitamist. Seekord lisame veebiserveri, et andmeid lisada, lugeda, muuta ja kustutada (CRUD operations).
+https://github.com/timotr/harjutused/blob/main/andmebaasid/Drizzle-ORM-prototype.md
 
 1. Setup web server using Express
 2. Create player by posting HTML form data.
 3. List existing players on the webpage
 4. Delete a player
 5. Bonus: update a player
+
+# Kaheksas tund
+
+Õpilased teevad iseseisvalt seda jalgpalli klubi rakendust edasi.
+Mina kontrollisin hobuste andmebaasi ERD skeeme - nad peaksid nähema rohkem valmis andmebaase enne äkki?
