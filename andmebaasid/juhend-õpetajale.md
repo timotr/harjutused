@@ -116,7 +116,7 @@ Vaatame mis on ORM. Proovime JavaScriptis Drizzle ORM'i koos jalgpalli andmebaas
 
 https://github.com/timotr/harjutused/blob/main/andmebaasid/Drizzle-ORM-prototype.md
 The exercise is really easy and works with any tool. But when projects get harder and you're in a team, you need to learn skills to organize your code and database.
-Migration is one common way to do it.
+Migration is one common way to do it. Migration technique is used to track (applied) changes in database structure.
 Separating your schema in source code is another one.
 
 ORM are able to import existing database schema
