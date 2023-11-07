@@ -186,7 +186,7 @@ Rolle võib olla ka raske välja mõelda, nii et need kataks kõik vajadused hä
 Claims ja permission põhised ligipääsud on tegevuspõhised ja seetõttu saab kellegi lubada näiteks uut kannet lisada aga kustutada mitte.
 Esmakordselt kõikide tegevuste ära kaardistamine õigusteks on väga ajamahukas. Üldiselt kõik rollide ja õigustega seotud arendustööd on suhteliselt mahukad.
 
-Claim tüüpi kontroll kannab kaasas mõnda kasutajaga seotud infot, näiteks claim "IsEmployee" kontrollib kas kasutajal on "EmployeeNumber" property täidetud.
+Claim tüüpi kontroll kannab kaasas mõnda kasutajaga seotud infot, näiteks claim "IsEmployee" kontrollib kas kasutajal on "EmployeeNumber" property täidetud. Vähemalt nii väidab [Entity Framework manual](https://learn.microsoft.com/en-us/dotnet/framework/wcf/feature-details/managing-claims-and-authorization-with-the-identity-model#claims)
 
 Neid kolme saab ka omavahel kombineerida. Näiteks, et ühel rollile on määratud mitu erinevat claimi või permissionit.
 Näiteks
