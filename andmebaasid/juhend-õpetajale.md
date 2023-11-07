@@ -173,3 +173,43 @@ https://github.com/timotr/harjutused/blob/main/andmebaasid/Drizzle-ORM-prototype
 
 Õpilased teevad iseseisvalt seda jalgpalli klubi rakendust edasi.
 Mina kontrollisin hobuste andmebaasi ERD skeeme - nad peaksid nähema rohkem valmis andmebaase enne äkki?
+
+# Üheksas tund
+
+RBAC Role-ased Access Control
+CBAC Claims-based Access Control
+PBAC Permission-based Access Control
+
+Rollipõhine pole väga granulaarne, tekib probleeme kus mõni töötaja peaks saama väike tööampsu juurde teisest rollist aga saab kõik teise rolli õigused.
+Rolle võib olla ka raske välja mõelda, nii et need kataks kõik vajadused hästi ära.
+
+Claims ja permission põhised ligipääsud on tegevuspõhised ja seetõttu saab kellegi lubada näiteks uut kannet lisada aga kustutada mitte.
+Esmakordselt kõikide tegevuste ära kaardistamine õigusteks on väga ajamahukas. Üldiselt kõik rollide ja õigustega seotud arendustööd on suhteliselt mahukad.
+
+Claim tüüpi kontroll kannab kaasas mõnda kasutajaga seotud infot, näiteks claim "IsEmployee" kontrollib kas kasutajal on "EmployeeNumber" property täidetud.
+
+Neid kolme saab ka omavahel kombineerida. Näiteks, et ühel rollile on määratud mitu erinevat claimi või permissionit.
+Näiteks
+
+Permissions:
+viewStock
+updateStock
+deleteProducts
+createClient
+addReservation
+
+Roles:
+Mehaanik (viewStock updateStock)
+Klienditeenindaja (createClient, addReservation)
+Laohaldur (viewStock, updateStock, deleteProducts)
+Laotöötaja (viewStock, updateStock)
+
+Üks mõte veel: rolle ja õigusi võib hoida ka lihtsalt lähtekoodis mitte andmebaasis. Ainult kasutaja külge sidumise tabelid nagu UserRoles (user_id, role_id) ja UserClaims (user_id, claim_id)
+peaks olema andmebaasis, sest me muudame neid väga tihti. Kuna rollid ja õigused on tihedalt seotud koodiga siis nende andmebaasis hoidmine ja muutmine lisab täiendavat keerukust.
+
+# Kümnes tund
+
+Hobusetalli töö põhjal oli näha, et õpilastel on nõrk arusaam kuidas tööaja graafikut teha. Proovime teha tunnis kolme broneerimisüsteemi:
+ - hotelli toa broneerimine (päevades)
+ - arsti konsultatsioon (minutites)
+ - töögraafik (tundides, korduv plaan)
