@@ -114,6 +114,11 @@ The distribution of user rights is also important, we want to restrict access to
 Meenutame eelmiste tundide teemasid
 Vaatame mis on ORM. Proovime JavaScriptis Drizzle ORM'i koos jalgpalli andmebaasiga.
 
+https://github.com/timotr/harjutused/blob/main/andmebaasid/Drizzle-ORM-prototype.md
+The exercise is really easy and works with any tool. But when projects get harder and you're in a team, you need to learn skills to organize your code and database.
+Migration is one common way to do it.
+Separating your schema in source code is another one.
+
 ORM are able to import existing database schema
 Data first -> auto generates code (input SQL)
 Schema first -> auto generates database and code (input JS or custom language)
