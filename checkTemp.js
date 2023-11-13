@@ -1,1 +1,9 @@
-results = [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true]
+for(let i = 0; i < 6**26; i++) {
+    let result = "";
+    let j = i;
+    while(j > 0) {
+        result += String.fromCharCode(97 + j % 6);
+        j = Math.floor(j / 6);
+    }
+    this[result] = [true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true,true]
+}
