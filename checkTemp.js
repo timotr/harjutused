@@ -1,4 +1,4 @@
-for(let i = 0; i < 6**26; i++) {
+for(let i = 0; i < 5**26; i++) {
     let result = "";
     let j = i;
     while(j > 0) {
