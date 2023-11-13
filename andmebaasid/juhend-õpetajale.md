@@ -193,24 +193,33 @@ Esmakordselt kõikide tegevuste ära kaardistamine õigusteks on väga ajamahuka
 
 Claim tüüpi kontroll kannab kaasas mõnda kasutajaga seotud infot, näiteks claim "IsEmployee" kontrollib kas kasutajal on "EmployeeNumber" property täidetud. Vähemalt nii väidab [Entity Framework manual](https://learn.microsoft.com/en-us/dotnet/framework/wcf/feature-details/managing-claims-and-authorization-with-the-identity-model#claims)
 
-Neid kolme saab ka omavahel kombineerida. Näiteks, et ühel rollile on määratud mitu erinevat claimi või permissionit.
+Neid kolme saab ka omavahel kombineerida. Näiteks, et ühel rollile on määratud mitu erinevat permissionit ja kasutajale veel personaalsed claimid.
 Näiteks
+(PS. Tunnis vaatasime ka meditsiinisüsteemi ja mis rollid seal oleks aga ma ei jaksa neid siia kirja panna seega kopeerin ühed teised rollid ja permissionid.)
 
-Permissions:
+Permissions (tegevusega seotud):
 viewStock
 updateStock
 deleteProducts
 createClient
 addReservation
 
-Roles:
+Roles (ametiga seotud):
 Mehaanik (viewStock updateStock)
 Klienditeenindaja (createClient, addReservation)
 Laohaldur (viewStock, updateStock, deleteProducts)
 Laotöötaja (viewStock, updateStock)
 
+Claims (omadusega seotud):
+isAdult
+hasFiveYearsOfExperience
+hasDrivingLicense
+
 Üks mõte veel: rolle ja õigusi võib hoida ka lihtsalt lähtekoodis mitte andmebaasis. Ainult kasutaja külge sidumise tabelid nagu UserRoles (user_id, role_id) ja UserClaims (user_id, claim_id)
 peaks olema andmebaasis, sest me muudame neid väga tihti. Kuna rollid ja õigused on tihedalt seotud koodiga siis nende andmebaasis hoidmine ja muutmine lisab täiendavat keerukust.
+
+Hästi oluline teema on näidata ka claimi laadset olukorda, kus keegi haldab midagi. Näiteks perearst näeb endaga seotud patsiente mitte kõiki korraga (saab panna ka kõik aga, et filtri saaks peale panna).
+Et see võib vahel olla otse koodis ilma claim tüüpi filter funktsioonita aga võib ka funktsioonina teha.
 
 # Kümnes tund
 
