@@ -227,3 +227,7 @@ Hobusetalli töö põhjal oli näha, et õpilastel on nõrk arusaam kuidas töö
  - hotelli toa broneerimine (päevades)
  - arsti konsultatsioon (minutites)
  - töögraafik (tundides, korduv plaan)
+
+# Üheteistkümnes tund
+
+Äkki teha rollide, permissionite ja claimide harjutamiseks mingi näidis kliendile need väärtused.
