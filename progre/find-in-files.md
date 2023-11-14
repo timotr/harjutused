@@ -13,7 +13,7 @@ Then run this function with the first folder path as input.
 
 ## How the result looks like
 
-Run the application using the command line. Output should be the list of file paths and a number of how many times string was in the file. And at the end show total matches.
+Run the application using the command line. the output should be the list of file paths and the number of how many times the string was in the file. And at the end show total matches.
 For example:
 ```
 C:\\Users\\timo\\Desktop\\example-folders\file1.txt 2
@@ -27,23 +27,24 @@ Total: 14
 
 ## What to search for?
 
-To test your program you can search for "test". There should be total of 21 matches in all files and 2 matches in the first file in the root directory (folder).
+To test your program, you can search for "test". There should be a total of 21 matches in all files and 2 matches in the first file (file1.txt) in the root directory/folder.
 
 ## Assessment
- - Grade 3 Application is able to find string in a single file and return match count.
- - Grade 4 Application is able to find string from multiple files in a single folder and return file names with match count.
- - Grade 5 Application is able to find string from multiple files in nested folders and return file paths with match count.
- 
-## What I expect you to already know:
 
-- How to find out is there a substring in a string
+ - Grade 3 Application can find the string in a single file and return a match count.
+ - Grade 4 Application can find the string from multiple files in a single folder and return file names with match count.
+ - Grade 5 Application can find the string from multiple files in nested folders and return file paths with match count.
+ 
+## What I expect you already know:
+
+- How to find out if there is a substring in a string
 - How to create and run functions with arguments
-- How to run Node application from command line
+- How to run Node application from the command line
 - What is a file path
-- How to read single file into a string
-- What webpages to use for searching for information and examples
+- How to read a single file into a string
+- What web pages to use for searching for information and examples
 
 ## What you might need to learn:
 
 - What is recursion and how to apply it
-- How to get list of all files and folders in the folder
+- How to get a list of all files and folders in the folder
