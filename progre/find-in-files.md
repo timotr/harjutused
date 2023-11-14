@@ -35,7 +35,7 @@ To test your program, you can search for "test". There should be a total of 21 m
  - Grade 4 Application can find the string from multiple files in a single folder and return file names with match count.
  - Grade 5 Application can find the string from multiple files in nested folders and return file paths with match count.
  
-## What I expect you already know:
+## What I expect you already know
 
 - How to find out if there is a substring in a string
 - How to create and run functions with arguments
@@ -44,7 +44,7 @@ To test your program, you can search for "test". There should be a total of 21 m
 - How to read a single file into a string
 - What web pages to use for searching for information and examples
 
-## What you might need to learn:
+## What you might need to learn
 
 - What is recursion and how to apply it
 - How to get a list of all files and folders in the folder
