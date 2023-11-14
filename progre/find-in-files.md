@@ -39,7 +39,7 @@ To test your program, you can search for "test". There should be a total of 21 m
 
 - How to find out if there is a substring in a string
 - How to create and run functions with arguments
-- How to run Node application from the command line
+- How to run your application from the command line
 - What is a file path
 - How to read a single file into a string
 - What web pages to use for searching for information and examples
