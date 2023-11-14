@@ -54,7 +54,7 @@ Need teemad on algajale liiga segadust tekitavad. Neid saab omavahel arutada ain
 5. A Objects, [Kahoot Basics II](https://create.kahoot.it/details/91b07b47-f141-4ace-a6ae-ccb4959c0765)
 6. B [Kahoot Arrays](https://create.kahoot.it/details/261ab306-984d-4777-8c3f-1053a9ec1b7d)
 7. B Analüüsime koos [algoritme](#erinevad-algoritmid-mida-koos-analüüsida) (max 2, muidu väsivad ära)
-8. B [Kahoot Objects](https://create.kahoot.it/details/5fbe65d9-6f97-46f9-a2d7-4b4b79177af1)
+8. B [Kahoot Objects](https://create.kahoot.it/details/5fbe65d9-6f97-46f9-a2d7-4b4b79177af1) (see on pask, pead ise tegema selle)
 9. A 
 10. B Analüüsime koos [algoritme](#erinevad-algoritmid-mida-koos-analüüsida) (max 2, muidu väsivad ära)
 11. A Error handling, kuidas lugeda stack trace'i, try/catch, avoid nesting ifs
