@@ -223,9 +223,17 @@ Et see võib vahel olla otse koodis ilma claim tüüpi filter funktsioonita aga 
 
 # Kümnes tund
 
-Hobusetalli töö põhjal oli näha, et õpilastel on nõrk arusaam kuidas tööaja graafikut teha. Proovime teha tunnis kolme broneerimisüsteemi:
+Hobusetalli töö põhjal oli näha, et õpilastel on nõrk arusaam kuidas tööaja graafikut teha.
+
+Broneerimise süsteemi case study
+Ainult andmebaasi mudeli disain, mis tabelid ja väljad peavad olema, et seda infot salvestada. Näited andmetest, et veenduda, et kõik vajalik on kirjas.
+
+Töötajaid, kasutajaid, rolle jms pole vaja välja mõelda.
+Võib teha DrawSQLis, notepadis, Excelis/spreadsheetis.
+
+ Proovime teha tunnis kolme broneerimisüsteemi:
  - hotelli toa broneerimine (päevades)
- - arsti konsultatsioon (minutites)
+ - arsti konsultatsioon / rehvivahetus (minutites)
  - töögraafik (tundides, korduv plaan)
 
 # Üheteistkümnes tund
