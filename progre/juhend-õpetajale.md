@@ -190,6 +190,14 @@ Alustame suuliste teadmiste kontrolliga. Iga tund küsin umbes viielt õpilaselt
 
 ## Kaheteistkümnes kohtumine
 
+## Järgmised 3 kohtumist 14.nov, 21.nov ja 28.nov ja pärast seda iseseisev töö
+
+14.nov HTML + JS
+21.nov Node, HTTP Server
+28.nov Failisüsteem: teeme faili, loeme faili, nimekiri kõikidest .png ja .jpeg failidest (seda läheb järgmise nädala iseseisva töö tegemiseks vaja)
+5.dets iseseisvalt: otsime mingit kindlat stringi ühes kaustas kõikidest .txt failidest
+12.dets 
+
 ## Kompilaatorid ja interpretaatorid
 
 Protsessoritel on eri disainid ja selle tõttu ka erinevad baas käsustikud mida sellega teha saab.
