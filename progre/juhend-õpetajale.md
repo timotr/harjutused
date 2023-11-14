@@ -194,9 +194,11 @@ Alustame suuliste teadmiste kontrolliga. Iga tund küsin umbes viielt õpilaselt
 
 14.nov HTML + JS
 21.nov Node, HTTP Server
-28.nov Failisüsteem: teeme faili, loeme faili, nimekiri kõikidest .png ja .jpeg failidest (seda läheb järgmise nädala iseseisva töö tegemiseks vaja)
-5.dets iseseisvalt: otsime mingit kindlat stringi ühes kaustas kõikidest .txt failidest
-12.dets 
+28.nov Failisüsteem: Teeme faili, loeme faili, nimekiri kõikidest .png ja .jpeg failidest (seda läheb järgmise nädala iseseisva töö tegemiseks vaja, näita ka ise ette alamakaustade asi)
+5.dets iseseisvalt:
+Otsime mingit kindlat stringi ühes kaustas kõikidest .txt failidest. Edasijõudnud teevad ka nii, et kõikidest alamkaustadest otsib ka.
+"Ajaloolise" INI faili lugemine ja selle väärtuste sisestamine JavaScripti objekti. Kui programmeermida ei oska siis kirjelda sammud mida selle tegemiseks vaja läheb.
+12.dets Ehitame koos HTML + JS mängu või rakenduse
 
 ## Kompilaatorid ja interpretaatorid
 
