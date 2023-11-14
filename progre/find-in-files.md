@@ -13,7 +13,8 @@ Then run this function with the first folder path as input.
 
 ## How the result looks like
 
-Run the application using the command line. the output should be the list of file paths and the number of how many times the string was in the file. And at the end show total matches.
+Run the application using the command line. the output should be the list of file paths and the number of how many times the string was in the file.  
+And at the end show total matches.  
 For example:
 ```
 C:\\Users\\timo\\Desktop\\example-folders\file1.txt 2
