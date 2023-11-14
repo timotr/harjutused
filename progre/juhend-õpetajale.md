@@ -188,16 +188,26 @@ Alustame suuliste teadmiste kontrolliga. Iga tund küsin umbes viielt õpilaselt
 
 ## Üheteistkümnes kohtumine
 
-## Kaheteistkümnes kohtumine
+## Failisüsteem
+
+Mõisted: file, path, folder/directory, file extension, traverse  
+Erinevad käsklused ja teekonnad erinevates operatsioonisüsteemides.
+
+**Harjutus 1:**  
+- Teeme faili
+- Loeme faili  
+- Teeme ja loeme faili HTTP serveris (juhul kui oleme seda jõudnud vaadata ennem)
+
+**Harjutus 2:**  
+Näita käsureal nimekirja kõikidest .png ja .jpeg failidest kaustas.  
+Võta eraldi aega, et kõik jõuaks selle harjutusega järgi. Alguses anna vihjeid, pärast näita kõigile lahendust.  
+Seda läheb järgmise nädala iseseisva töö tegemiseks vaja. Ütle seda kõige lõpus, et nad ei jõuaks pilti teha?  
 
 ## Järgmised 3 kohtumist 14.nov, 21.nov ja 28.nov ja pärast seda iseseisev töö
 
 14.nov HTML + JS  
 21.nov Node, käsurida, HTTP Server  
-28.nov Failisüsteem:  
-Teeme faili, loeme faili  
-teeme ja loeme + HTTP server  
-Nimekiri kõikidest .png ja .jpeg failidest (seda läheb järgmise nädala iseseisva töö tegemiseks vaja, näita neile ise ette alamakaustade asi)  
+28.nov [Failisüsteem]
 5.dets iseseisvalt:  
 Otsime mingit kindlat stringi ühes kaustas kõikidest .txt failidest. Edasijõudnud teevad ka nii, et kõikidest alamkaustadest otsib ka.  
 "Ajaloolise" INI faili lugemine ja selle väärtuste sisestamine JavaScripti objekti. Kui programmeermida ei oska siis kirjelda sammud mida selle tegemiseks vaja läheb.  
