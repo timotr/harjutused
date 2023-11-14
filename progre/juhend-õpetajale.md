@@ -23,6 +23,7 @@ Topics list
 Sulud
 
 ## Teemad
+Hästi oluline on ka aru saada, et kui õpilased emotsionaalselt/vaimselt ei jaksa rohkem vastu võtta ja osad teemad jäävad rääkimata siis sellest ei juhtu midagi. Neilt tuleb veel "Lihtsamate rakenduste loomine kasutades arendusvahendeid (IDE)" aine kus nad jõuavad kõiki neid asju veel teha ja harjutada.
 - kus koodi saab käivitada, mis teisi töövahendeid programmeermisel kasutame
 - while, for, if, function
 - andmetüübid: kuidas peale vaadates ära tunneme, mis omadused neil on
@@ -32,7 +33,7 @@ Sulud
 - 
 - 
 - täna levinud failiformaadid: CSV, JSON, XML, YAML, TOML/INI
-- nesting, parent, child, sibling, nested ifs
+- nesting, parent, child, sibling, nested ifs, nested folders
 - seome õpitud keele teiste tehnoloogiatega: HTML, HTTP, OS/failisüsteem (aga hästi pealiskaudselt)
 
 ## Teemad mida ma tahaks näidata aga ei tea kus, võiks olla valikulised või randomly tulla
@@ -196,19 +197,23 @@ Erinevad käsklused ja teekonnad erinevates operatsioonisüsteemides.
 **Harjutus 1:**  
 - Teeme faili
 - Loeme faili  
-- Teeme ja loeme faili HTTP serveris (juhul kui oleme seda jõudnud vaadata ennem)
+- Teeme ja loeme faili HTTP serveris (juhul kui oleme seda jõudnud vaadata ennem), salvestame näiteks broneeringud 
 
 **Harjutus 2:**  
 Näita käsureal nimekirja kõikidest .png ja .jpeg failidest kaustas.  
 Võta eraldi aega, et kõik jõuaks selle harjutusega järgi. Alguses anna vihjeid, pärast näita kõigile lahendust.  
 Seda läheb järgmise nädala iseseisva töö tegemiseks vaja. Ütle seda kõige lõpus, et nad ei jõuaks pilti teha?  
 
+## Levinud failiformaadid
+
+CSV, JSON, XML, YAML, TOML/INI
+
 ## Järgmised 3 kohtumist 14.nov, 21.nov ja 28.nov ja pärast seda iseseisev töö
 
 14.nov HTML + JS  
 21.nov Node, käsurida, HTTP Server  
 28.nov [Failisüsteem]
-5.dets iseseisvalt:  
+5.dets iseseisvalt: 
 Otsime mingit kindlat stringi ühes kaustas kõikidest .txt failidest. Edasijõudnud teevad ka nii, et kõikidest alamkaustadest otsib ka.  
 "Ajaloolise" INI faili lugemine ja selle väärtuste sisestamine JavaScripti objekti. Kui programmeermida ei oska siis kirjelda sammud mida selle tegemiseks vaja läheb.  
 12.dets Ehitame koos HTML + JS mängu (snake, tetris, top-down wasd-click-movement) või ToDo rakenduse?
