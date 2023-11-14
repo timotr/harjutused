@@ -300,12 +300,10 @@ console.log("Word count: " + wordCount); // Output: Word count: 8
 ### Word count loop
 ```js
 let inputString = "This is a sample sentence to count words.";
-let wordCount = 1; // Initialize with 1 to account for the first word
+let wordCount = 1;
 
-// Iterate through each character in the input string
 for (let i = 0; i < inputString.length; i++) {
   if (inputString[i] === ' ') {
-    // If a space is encountered, increment the word count
     wordCount++;
   }
 }
