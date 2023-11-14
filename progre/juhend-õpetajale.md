@@ -23,7 +23,7 @@ Topics list
 Sulud
 
 ## Teemad
-Hästi oluline on ka aru saada, et kui õpilased emotsionaalselt/vaimselt ei jaksa rohkem vastu võtta ja osad teemad jäävad rääkimata siis sellest ei juhtu midagi. Neilt tuleb veel "Lihtsamate rakenduste loomine kasutades arendusvahendeid (IDE)" aine kus nad jõuavad kõiki neid asju veel teha ja harjutada.
+Hästi oluline on ka aru saada, et kui õpilased emotsionaalselt/vaimselt ei jaksa rohkem vastu võtta ja osad teemad jäävad rääkimata siis sellest ei juhtu midagi. Neil tuleb veel "Lihtsamate rakenduste loomine kasutades arendusvahendeid (IDE)" aine kus nad jõuavad kõiki neid asju veel teha ja harjutada.
 - kus koodi saab käivitada, mis teisi töövahendeid programmeermisel kasutame
 - while, for, if, function
 - andmetüübid: kuidas peale vaadates ära tunneme, mis omadused neil on
