@@ -31,7 +31,7 @@ Sulud
 - 
 - 
 - 
-- täna levinud failiformaadid: CSV, XML, JSON, YAML
+- täna levinud failiformaadid: CSV, JSON, XML, YAML, TOML/INI
 - nesting, parent, child, sibling, nested ifs
 - seome õpitud keele teiste tehnoloogiatega: HTML, HTTP, OS/failisüsteem (aga hästi pealiskaudselt)
 
@@ -193,12 +193,12 @@ Alustame suuliste teadmiste kontrolliga. Iga tund küsin umbes viielt õpilaselt
 ## Järgmised 3 kohtumist 14.nov, 21.nov ja 28.nov ja pärast seda iseseisev töö
 
 14.nov HTML + JS
-21.nov Node, HTTP Server
-28.nov Failisüsteem: Teeme faili, loeme faili, nimekiri kõikidest .png ja .jpeg failidest (seda läheb järgmise nädala iseseisva töö tegemiseks vaja, näita ka ise ette alamakaustade asi)
-5.dets iseseisvalt:
-Otsime mingit kindlat stringi ühes kaustas kõikidest .txt failidest. Edasijõudnud teevad ka nii, et kõikidest alamkaustadest otsib ka.
-"Ajaloolise" INI faili lugemine ja selle väärtuste sisestamine JavaScripti objekti. Kui programmeermida ei oska siis kirjelda sammud mida selle tegemiseks vaja läheb.
-12.dets Ehitame koos HTML + JS mängu või rakenduse
+21.nov Node, käsurida, HTTP Server
+28.nov Failisüsteem: Teeme faili, loeme faili, teeme ja loeme + HTTP server, nimekiri kõikidest .png ja .jpeg failidest (seda läheb järgmise nädala iseseisva töö tegemiseks vaja, näita neile ise ette alamakaustade asi) 
+5.dets iseseisvalt:  
+Otsime mingit kindlat stringi ühes kaustas kõikidest .txt failidest. Edasijõudnud teevad ka nii, et kõikidest alamkaustadest otsib ka.  
+"Ajaloolise" INI faili lugemine ja selle väärtuste sisestamine JavaScripti objekti. Kui programmeermida ei oska siis kirjelda sammud mida selle tegemiseks vaja läheb.  
+12.dets Ehitame koos HTML + JS mängu (snake, tetris, top-down wasd-click-movement) või ToDo rakenduse?
 
 ## Kompilaatorid ja interpretaatorid
 
