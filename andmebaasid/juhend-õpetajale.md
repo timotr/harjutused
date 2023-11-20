@@ -225,16 +225,33 @@ Et see võib vahel olla otse koodis ilma claim tüüpi filter funktsioonita aga 
 
 Hobusetalli töö põhjal oli näha, et õpilastel on nõrk arusaam kuidas tööaja graafikut teha.
 
-Broneerimise süsteemi case study
-Ainult andmebaasi mudeli disain, mis tabelid ja väljad peavad olema, et seda infot salvestada. Näited andmetest, et veenduda, et kõik vajalik on kirjas.
+Broneerimise süsteemi juhtumianalüüs (case study)
+Vaja teha andmebaasi mudeli disain, mis tabelid ja väljad koos andmetüüpidega peavad olema, et broneeringu infot salvestada. Kasutajaid, õigusi, invetuuri jm tabeleid ei ole seekord vaja (max 2-3 tabelit).
+Teha ka näited andmetest, et veenduda, et kõik vajalik on võimalik andmebaasi salvestada.
 
 Töötajaid, kasutajaid, rolle jms pole vaja välja mõelda.
 Võib teha DrawSQLis, notepadis, Excelis/spreadsheetis.
 
  Proovime teha tunnis kolme broneerimisüsteemi:
  - hotelli toa broneerimine (päevades)
- - arsti konsultatsioon / rehvivahetus (minutites)
+ - arsti konsultatsioon või rehvivahetus (minutites)
  - töögraafik (tundides, korduv plaan)
+
+#### English
+Reservation system case study
+Make database design model, including tables and fields with correct data types, that is able to store reservation info.
+
+There is no need for users, permissions, roles, invetory and other similar tables. Max 2-3 tables just to store reservations.
+
+You can do this on DrawSQL, in notepad or spreadsheet.
+Try to confirm your desing by testing it out with some made up data.
+
+Try 3 different ones:
+- easy: hotel room reservation (in days)
+- easy: doctor consultation or tire change (in minutes)
+- harder: work schedule (in hours, repeating plan)
+
+I'll show my ideas in one hour.
 
 # Üheteistkümnes tund
 
