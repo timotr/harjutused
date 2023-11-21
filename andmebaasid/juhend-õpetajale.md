@@ -248,7 +248,7 @@ Make database design model, including tables and fields with correct data types,
 There is no need for users, permissions, roles, invetory and other similar tables. Max 2-3 tables just to store reservations.
 
 You can do this on DrawSQL, in notepad or spreadsheet.
-Try to confirm your desing by testing it out with some made up data.
+Try to confirm your design by testing it out with some made up data.
 
 Try 3 different ones:
 - easy: hotel room reservation (in days)
