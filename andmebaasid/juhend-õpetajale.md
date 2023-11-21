@@ -225,17 +225,21 @@ Et see võib vahel olla otse koodis ilma claim tüüpi filter funktsioonita aga 
 
 Hobusetalli töö põhjal oli näha, et õpilastel on nõrk arusaam kuidas tööaja graafikut teha.
 
-Broneerimise süsteemi juhtumianalüüs (case study)
-Vaja teha andmebaasi mudeli disain, mis tabelid ja väljad koos andmetüüpidega peavad olema, et broneeringu infot salvestada. Kasutajaid, õigusi, invetuuri jm tabeleid ei ole seekord vaja (max 2-3 tabelit).
-Teha ka näited andmetest, et veenduda, et kõik vajalik on võimalik andmebaasi salvestada.
+#### Eesti keeles
+Broneerimissüsteemi juhtumiuuring
+Loo andmebaasi mudel, sealhulgas õigete andmetüüpidega tabelid ja väljad, mis suudavad salvestada broneeringuinfot.
 
-Töötajaid, kasutajaid, rolle jms pole vaja välja mõelda.
-Võib teha DrawSQLis, notepadis, Excelis/spreadsheetis.
+Pole vaja kasutajaid, õigusi, rolle, inventari ja muid sarnaseid tabeleid. Max 2-3 tabelit ainult broneeringute salvestamiseks.
 
- Proovime teha tunnis kolme broneerimisüsteemi:
- - hotelli toa broneerimine (päevades)
- - arsti konsultatsioon või rehvivahetus (minutites)
- - töögraafik (tundides, korduv plaan)
+Seda saate teha DrawSQL-is, notepadis või spreadsheetis.
+Katseta oma disaini sobivust väljamõeldud andmetega.
+
+Proovi 3 erinevat olukorda:
+lihtne: hotellitoa broneerimine (päevades)
+lihtne: arsti konsultatsioon või rehvivahetus (minutites)
+keskmine: töögraafik (tundides, korduv plaan)
+
+Ma näitan oma ideid tunni pärast.
 
 #### English
 Reservation system case study
