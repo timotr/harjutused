@@ -189,6 +189,9 @@ Alustame suuliste teadmiste kontrolliga. Iga tund küsin umbes viielt õpilaselt
 
 ## Üheteistkümnes kohtumine
 
+Avaldis (statement)
+https://www.taskutark.ee/uhe-tundmatuga-lineaarvorrand-selle-lahendamine-2/
+
 ## Failisüsteem
 
 Mõisted: file, path, folder/directory, file extension, traverse  
