@@ -19,3 +19,7 @@ Keep all the SQL-s you write, you need them in the future when we have more task
 4. This one is hard. Let's figure out in what city there are most of the shops. (SELECT, JOIN address, GROUP BY, ORDER BY)
 
 Send me the SQL queries you wrote via email.
+
+Here are the answers encoded in base64 if you want to check your results:
+
+  MS4gODA3CjIuIDMxMQozLiAzCjQuIFRvcCA0IGFyZSBUYXJ0dSwgSsO1Z2V2YSwgVMO1cnZhLCBBbnRzbGE=
