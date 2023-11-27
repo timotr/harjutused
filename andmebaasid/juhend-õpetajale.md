@@ -260,3 +260,6 @@ I'll show my ideas in one hour.
 # Üheteistkümnes tund
 
 Äkki teha rollide, permissionite ja claimide harjutamiseks mingi näidis kliendile need väärtused.
+
+# Kolmeteistkümnes tund
+Harjutame SQL päringute kirjutamist
