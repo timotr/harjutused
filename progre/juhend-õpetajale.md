@@ -150,7 +150,7 @@ https://github.com/timotr/harjutused
 ## Neljas kohtumine
 
 Kordame eelmise tunni teemasid.
-Uus andmetüüp array (List). Kuidas array luua, kuidas sinna asju sisestada ning kuidas sealt sees andmeid lugeda. Kordame for tsükli tööpõhimõtet läbi fruitSort.html faili.
+Uus andmetüüp array (List, Vector). Kuidas array luua, kuidas sinna asju sisestada ning kuidas sealt sees andmeid lugeda. Kordame for tsükli tööpõhimõtet läbi fruitSort.html faili.
 
 Kolmanda tunni harjutus:
 1. Küsi kasutajalt 10 puuvilja/sõna, salvesta need array sisse.
