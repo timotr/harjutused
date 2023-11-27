@@ -1,6 +1,7 @@
 [github.com/timotr/harjutused/tree/main/andmebaasid/](https://github.com/timotr/harjutused/blob/main/andmebaasid/rimi-database20231127.zip)
 
-1. We are using MySQL database for this one, open MySQL Workbench to query data. User: root pw: Passw0rd
+1. We are using MySQL database for this one, open MySQL Workbench to query data. User: root   pw: Passw0rd
+(You can use other graphical interface for this database or even MariaDB if you are doing it at home or on laptop)
 2. Create schema for the database, charset utf8mb4.
 Double click on the schema name to make it active.
 3. Download the rimi-database20231127.zip, unzip it into a new folder
