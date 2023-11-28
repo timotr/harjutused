@@ -5,7 +5,7 @@
 2. Create schema for the database, charset utf8mb4.
 Double-click on the schema name to make it active.
 3. Download the [rimi-database20231127.zip](https://github.com/timotr/harjutused/blob/main/andmebaasid/rimi-database20231127.zip), unzip it into a new folder
-4. Import database (Toolbar > Server > Import data)
+4. Import database, open from toolbar: Server > Data Import
 5. Check out what tables there are and what they contain. There is a "select" button at the end of the table name when you hover the name.
 
 ### Tasks you need to do
