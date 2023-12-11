@@ -25,5 +25,5 @@ Send me the SQL queries you wrote via email.
 Here are the answers encoded in base64 if you want to check your results:
 
 ```
-MS4gODA3CjIuIDMxMQozLiAzCjQuIFRvcCA0IGFyZSBUYXJ0dSwgSsO1Z2V2YSwgVMO1cnZhLCBBbnRzbGE=
+MS4gODA3CjIuIDMxMSBvciAxNTQgKEkgbWFkZSBtaXN0YWtlIGhlcmUpCjMuIDMKNC4gVG9wIDQgYXJlIFRhcnR1LCBKw7VnZXZhLCBUw7VydmEsIEFudHNsYQ==
 ```
