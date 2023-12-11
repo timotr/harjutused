@@ -263,3 +263,4 @@ I'll show my ideas in one hour.
 
 # Kolmeteistkümnes tund
 Harjutame SQL päringute kirjutamist
+rimi-database
