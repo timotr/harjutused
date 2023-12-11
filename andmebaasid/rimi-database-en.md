@@ -8,6 +8,8 @@ Double-click on the schema name to make it active.
 4. Import database, open from toolbar: Server > Data Import
 5. Check out what tables there are and what they contain. There is a "select" button at the end of the table name when you hover the name.
 
+*If you prefer PostgreSQL [rimi-database-postgres20231127.zip](https://github.com/timotr/harjutused/blob/main/andmebaasid/rimi-database-postgresql20231127.zip)*
+
 ### Tasks you need to do
 
 This is R̸̜̝͒ͪÎ̷̯̩͍͙͔̫͙̦ͦͥM̾̓͏͇͇I͈͙̟̳̣̭ͤ́ database from the alternate universe. Based on my intel, it seems there is only one shop in Tallinn. Your job is to analyze what's going on there.
