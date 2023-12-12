@@ -1,7 +1,7 @@
 Lugeda tellimuse objekti seest kõik tellimuse kaubad. Printida iga kauba nimi, kogus, hind ja summa konsooli eraldi reale. 
 Kõige lõpus printida konsooli tellimuse kogusumma. 
 
-Tellimuse näidis objekti leiab GitHubist https://timotr.github.io/tellimus.html
+Tellimuse näidis objekti leiab GitHubist https://timotr.github.io/tellimus.html  
 Iga kord kui refreshid saad uue näidise. Programm peab suutma iga uue tellimusega õige hinna välja arvutada.
 
 Tee funktsioon `orderSummary` mis võtab ühe parameetrina kaasa tellimuse objekti.
