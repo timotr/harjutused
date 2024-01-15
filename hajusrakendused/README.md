@@ -8,5 +8,5 @@
 4. Projektitöö / Project
 
 ## Boonus
-Raspberry Pi kahe kontrolleri vaheline suhtlus serveriga (üks tiim teeb buttoni, teine tiim ledi)
-Päris krüptot proovida kasutada? Vähemalt walleti ideest aru saada. Shiba coin, Meow coin?
+- Raspberry Pi kahe kontrolleri vaheline suhtlus serveriga (üks tiim teeb buttoni, teine tiim ledi)
+- Päris krüptot proovida kasutada? Vähemalt walleti ideest aru saada. Shiba coin, Meow coin?
