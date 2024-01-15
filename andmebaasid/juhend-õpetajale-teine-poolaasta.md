@@ -21,11 +21,12 @@ parool: Passw0rd
 
 3. Käivitada skript ajastatult igal öösel kell 04:00
 
-Töö on hindeline, tulen vaatan skripti ja kuidas ajastasid nt Task Scheduler'iga
+Töö on hindeline, tulen vaatan skripti ja kuidas ajastasid nt Task Scheduler'iga.
+Hoia skript alles, kasutame seda ühes tunnis uuesti.
 
 # Teine kohtumine
 
-
+Maarja domeeni rakenduse ehitamine koos andmebaasiga
 
 # Kaheksas kohtumine
 
