@@ -9,4 +9,7 @@
 
 ## Boonus
 - Raspberry Pi kahe kontrolleri vaheline suhtlus serveriga (üks tiim teeb buttoni, teine tiim ledi)
+- API Gateway (load-balancer) näide
+- Webhook näide
+- Long-polling näide
 - Päris krüptot proovida kasutada? Vähemalt walleti ideest aru saada. Shiba coin, Meow coin?
