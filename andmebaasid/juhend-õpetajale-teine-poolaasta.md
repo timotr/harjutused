@@ -15,13 +15,13 @@ Pane backupi faili nimeks "rimi_" + sinu enda nimi.
 
 2. Tahame SFTP/SSH kaudu backup faili sinna serverisse saata. Lae fail serveris kausta ~/databases või C:/users/backups/databases (ma ei tea kumb path töötab)
 
-Backup server: 172.18.24.8
-kasutaja: backups
-parool: Passw0rd
+Backup server: 172.18.24.8  
+kasutaja: backups  
+parool: Passw0rd  
 
 3. Käivitada skript ajastatult igal öösel kell 04:00
 
-Töö on hindeline, tulen vaatan skripti ja kuidas ajastasid nt Task Scheduler'iga.
+Töö on hindeline, tulen vaatan skripti ja kuidas ajastasid nt Task Scheduler'iga.  
 Hoia skript alles, kasutame seda ühes tunnis uuesti.
 
 # Teine kohtumine
