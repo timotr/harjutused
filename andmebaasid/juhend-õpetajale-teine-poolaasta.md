@@ -13,7 +13,7 @@ Teeme Windowsi peal andmebaasi varundamise skripti
 1. Soovitan teha kas Windows BAT või PowerShelli skripti mis käivitab andmebaasis backup käskluse ja väljastab kas SQL või muus formaadis varukoopia faili andmetest ja schemast.
 Pane backupi faili nimeks "rimi_" + sinu enda nimi.
 
-2. Tahame SFTP/SSH kaudu backup faili sinna serverisse saata. Lae fail serveris kausta ~/databases või C:/users/backups/databases (ma ei tea kumb path töötab)
+2. Tahame SFTP/SSH kaudu backup faili sinna serverisse saata. Lae fail serveris kausta C:/Users/backups/databases
 
 Backup server: 172.18.24.8  
 kasutaja: backups  
