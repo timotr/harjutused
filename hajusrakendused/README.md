@@ -5,7 +5,7 @@
 [Spare Parts API](https://github.com/timotr/harjutused/blob/main/hajusrakendused/spareparts.md) ENG
 3. [Ülesannete nimekirja klientrakendus](https://github.com/timotr/harjutused/blob/main/hajusrakendused/yl-nimekiri-klient.md) EST  
 [To-Do client app](https://github.com/timotr/harjutused/blob/main/hajusrakendused/todo-client.md) ENG
-4. Projektitöö / Project
+4. Ainete-ülene projekt / A cross-curricular project
 
 ## Boonus
 - Raspberry Pi kahe kontrolleri vaheline suhtlus serveriga (üks tiim teeb buttoni, teine tiim ledi)
