@@ -100,9 +100,8 @@ function hydrateAntCheckboxes(element) {
             checkbox.classList.add('ant-checkbox-checked');
         }
         
-        // Kui checkboxi või label'i peale vajutatakse siis muudetakse checkboxi olekut
-        wrapper.addEventListener('click', () => {
-            input.checked = !input.checked;
+        // Kui inputi peale vajutatakse siis uuendatakse checkboxi kujundust
+        input.addEventListener('change', () => {
             checkbox.classList.toggle('ant-checkbox-checked');
         });
     }
