@@ -9,6 +9,7 @@
 
 ## Boonus
 - Raspberry Pi kahe kontrolleri vaheline suhtlus serveriga (üks tiim teeb buttoni, teine tiim ledi)
+- Maarja's domain registration form backend
 - API Gateway (load-balancer) näide
 - Webhook näide
 - Long-polling näide
