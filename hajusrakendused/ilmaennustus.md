@@ -1,7 +1,7 @@
 # Harjutus 1 - Tallinna ilmaennustus kasutades Yr.no API't
 
 Tahame teha minimaalse rakenduse, mis ühe HTTP päringuga küsib ilmaennustuse ja prindib sealt andmed (aeg ja õhutemperatuur) ekraanile.
-võite teha seda mis tahes enda valitud programmeerimiskeeles. Kuupäeva ja kellaaega ei ole vaja töödelda, printige nii nagu see JSON-ist tuleb.
+Võite teha seda mis tahes enda valitud programmeerimiskeeles. Kuupäeva ja kellaaega ei ole vaja töödelda, printige nii nagu see JSON-ist tuleb.
 
 Näidis milline väljund võiks olla:
 
@@ -12,7 +12,7 @@ Näidis milline väljund võiks olla:
 
 Eesmärk on meenutada kuidas HTTP päringut teha ja päringu JSON formaadis vastust lugeda.
 Kui teete C# projektina siis pole vaja tervet projekti üles laadida, piisab sellest failist kus andmete lugemine toimub, nt Program.cs console app puhul.
-Ideaalis võiksid tööd esitleda tunnis/tunnis.
+Ideaalis võiksid tööd esitleda tunnis.
 
 Sa leiad Yo.no API aadressi kui otsid internetist "yr.no api" ja veebilehele jõudes vajuta "Get started" > "Start here".
 Sa tahad teha päringu aadressile /compact ning lisada sinna juurde query parameetritega Tallinna koordinaadid.
