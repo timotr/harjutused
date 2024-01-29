@@ -25,6 +25,7 @@ app.get('/publish/:channel', (req, res) => {
         // Check if connection is still open
         if (connection.writable) {
             counter++;
+            // You can also keep the connection open for multiple publishes by replacing connection.end with connection.write, but it can get unstable as connections can still close by other networking related problems.
             connection.end('data: ' + req.query.message);
         }
     });
