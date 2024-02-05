@@ -31,13 +31,17 @@ Tegite Maarja tunnis domeeni registreerimise veebilehe. Jätkame selle sama kood
 1. Kogu Maarja domeeni vormidelt info kokku. Mitme eri vormi/faili korral on selleks paar varianti:
 - Salvestame kasutades Javascripti
    a) browseri localStorage ja sessionStorage
-     I) Form hidden input DOM mutation
-     II) fetch funktsiooniga päring form submit asemel
+     1) Form hidden input DOM mutation
+     2) fetch funktsiooniga päring form submit asemel
    b) muutujad ja fetch (React, Vue, Angular, Svelte, jne)
 - Server sessions (cookie)
 - Hidden input
+  1) Form hidden input DOM mutation.
+      querySelector("input[name=domain]").value = query.get("domain")
+  2) Server find-replace template variable in file
+      str.replace {{domain}} -> query.get("domain")
 
-2. Salvesta viimases sammus info andmebaasi. Võid kasutada ORMi aga ei pea.
+2. Salvesta viimases sammus info andmebaasi. Võid kasutada ORMi aga ei pea. Andmebaasi salvestamise osa on hindeline.
 
 # Kaheksas kohtumine
 
