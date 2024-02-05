@@ -25,21 +25,38 @@ Töö on hindeline, tulen vaatan skripti ja kuidas ajastasid nt Task Scheduler'i
 Hoia skript alles, kasutame seda ühes tunnis uuesti.
 
 # Teine kohtumine
+HTTP request&response, status codes, RESTful
+Node web server POST
+Express framework
+Läbi mitme faili kogume infot
 
 Tegite Maarja tunnis domeeni registreerimise veebilehe. Jätkame selle sama koodiga mis te seal valmis saite ning kogume vormidelt vajaliku info kokku ja salvestame selle andmebaasi.
 
-1. Kogu Maarja domeeni vormidelt info kokku. Mitme eri vormi/faili korral on selleks paar varianti:
-- Salvestame kasutades Javascripti
-   a) browseri localStorage ja sessionStorage
-     1) Form hidden input DOM mutation
-     2) fetch funktsiooniga päring form submit asemel
-   b) muutujad ja fetch (React, Vue, Angular, Svelte, jne)
-- Server sessions (cookie)
-- Hidden input
-  1) Form hidden input DOM mutation.
-      querySelector("input[name=domain]").value = query.get("domain")
-  2) Server find-replace template variable in file
-      str.replace {{domain}} -> query.get("domain")
+1. Kogu Maarja domeeni vormidelt info kokku. Mitme eri vormi/faili korral on selleks paar varianti.
+
+First form data is forgotten after you submit another HTML form.
+We need all the forms data when saving to the database.
+
+Two main ways to approach this problem
+a) Keep intermediate values in browser
+b) Keep intermediate values in server
+
+Techniques:
+a) Keep intermediate values in browser
+  Step 1 - store:
+  1) option: JS localStorage, sessionStorage, SQLite
+  2) option: HTML hidden input
+  3) option: JS muutujad / state (React, Vue, Angular, Svelte, etc)
+  Step 2 - send:
+  1) option: Server str.replace to update form hidden inputs
+  2) option: JS DOM mutation to update form hidden inputs 
+  3) option: JS fetch (or XMLHttpRequest)
+  
+b) Keep intermediate values in server
+  Step 1 - store:
+  1) option: session + cookies
+  Step 2 is not needed, it's already in the server
+
 
 2. Salvesta viimases sammus info andmebaasi. Võid kasutada ORMi aga ei pea. Andmebaasi salvestamise osa on hindeline.
 
