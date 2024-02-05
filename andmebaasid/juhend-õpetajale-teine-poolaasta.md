@@ -34,6 +34,8 @@ Tegite Maarja tunnis domeeni registreerimise veebilehe. Jätkame selle sama kood
 
 1. Kogu Maarja domeeni vormidelt info kokku. Mitme eri vormi/faili korral on selleks paar varianti.
 
+Data from multiple forms/files Maarja's exercise
+
 First form data is forgotten after you submit another HTML form.
 We need all the forms data when saving to the database.
 
@@ -41,11 +43,22 @@ Two main ways to approach this problem
 a) Keep intermediate values in browser
 b) Keep intermediate values in server
 
+Tools for each approach:
+a) Keep intermediate values in browser, send in the last step
+  Tools to store values between files changes:
+    1) URL, search params
+    2) localStorage, sessionStorage, SQLite
+    3) HTML hidden form inputs
+    4) JS variables / state engines (React, Vue, Angular, Svelte, etc)
+  Tools to send values at the end:
+    1) HTML form submit
+    2) JS fetch, XMLHttpRequest
+
 Techniques:
 a) Keep intermediate values in browser
   Step 1 - store:
-  1) option: JS localStorage, sessionStorage, SQLite
-  2) option: HTML hidden input
+  1) option: HTML hidden input
+  2) option: JS localStorage, sessionStorage, SQLite
   3) option: JS muutujad / state (React, Vue, Angular, Svelte, etc)
   Step 2 - send:
   1) option: Server str.replace to update form hidden inputs
@@ -55,10 +68,12 @@ a) Keep intermediate values in browser
 b) Keep intermediate values in server
   Step 1 - store:
   1) option: session + cookies
-  Step 2 is not needed, it's already in the server
+  Step 2 is not needed, it's already in server
 
 
 2. Salvesta viimases sammus info andmebaasi. Võid kasutada ORMi aga ei pea. Andmebaasi salvestamise osa on hindeline.
+
+
 
 # Kaheksas kohtumine
 
