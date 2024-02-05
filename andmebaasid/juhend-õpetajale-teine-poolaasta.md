@@ -26,7 +26,18 @@ Hoia skript alles, kasutame seda ühes tunnis uuesti.
 
 # Teine kohtumine
 
-Maarja domeeni rakenduse ehitamine koos andmebaasiga
+Tegite Maarja tunnis domeeni registreerimise veebilehe. Jätkame selle sama koodiga mis te seal valmis saite ning kogume vormidelt vajaliku info kokku ja salvestame selle andmebaasi.
+
+1. Kogu Maarja domeeni vormidelt info kokku. Mitme eri vormi/faili korral on selleks paar varianti:
+- Salvestame kasutades Javascripti
+   a) browseri localStorage ja sessionStorage
+     I) Form hidden input DOM mutation
+     II) fetch funktsiooniga päring form submit asemel
+   b) muutujad ja fetch (React, Vue, Angular, Svelte, jne)
+- Server sessions (cookie)
+- Hidden input
+
+2. Salvesta viimases sammus info andmebaasi. Võid kasutada ORMi aga ei pea.
 
 # Kaheksas kohtumine
 
