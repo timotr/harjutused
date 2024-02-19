@@ -4,7 +4,7 @@
 * Loe CSV failist andmed mällu
 * Saada andmed kasutajale JSON formaadis kasutades HTTP veebiserverit
 * Filtreeri/otsi varuosasid seerianumbri või nime järgi
-* Parem hinne kui teed ka lehekülgedeks jagamise ja sorteerimise
+* Lehekülgedeks jagamine ja sorteerimine
 
 ## Kirjeldus
 Ettevõte kasutab mõnda vanemat laotarkvara, mis suudab eksportida tooteid ainult CSV-vormingus.
