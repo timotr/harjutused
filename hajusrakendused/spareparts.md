@@ -4,7 +4,7 @@
 * Read data from CSV file to the memory
 * Send data back in JSON format using HTTP web server
 * Filter/search spare parts using serial number or part name
-* Extra points for pagination and sorting
+* Pagination and sorting
 
 ## Description
 Company is using some older inventory software which can only export products in CSV format.
