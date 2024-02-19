@@ -48,7 +48,7 @@ Klientrakendust (front-end) võib ise ehitada aga server-rakendust (back-end) se
 - RESTful API struktuur: meetodid ja URL-i vorming
 - Mis on küpsised (cookies)
 - Kuidas kasutada sessionStorage või localStorage hoidlaid
-- Mis on debounce ja throttle funktsioonid
+- Mis on debounce ja throttle funktsioonid [Päris ok artikkel selle jaoks](https://blog.logrocket.com/how-and-when-to-debounce-or-throttle-in-react/)
 - Teave CORS-i kohta Chrome'i kasutamisel
 - Navigeerida Reacti rakenduses, kasutada funktsionaalseid komponente ja React Hook'e https://beta.reactjs.org/
 
