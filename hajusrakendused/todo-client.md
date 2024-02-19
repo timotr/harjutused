@@ -46,7 +46,7 @@ In order to solve the task, you have to ask the teacher additional questions, th
 - RESTful API structure: methods and URL format
 - What are cookies
 - How to store session tokens in sessionStorage or localStorage
-- What are debounce and throttle functions
+- What are debounce and throttle functions  [Pretty ok article for this](https://blog.logrocket.com/how-and-when-to-debounce-or-throttle-in-react/)
 - About CORS when using Chrome
 - Navigate in React application, how to use functional components and React Hooks https://beta.reactjs.org/
 
