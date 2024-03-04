@@ -40,7 +40,7 @@ In order to solve the task, you have to ask the teacher additional questions, th
 - How to install and run Javascript applications
 - How to make HTTP requests
 - How to set HTTP request headers, query parameters and body data
-- Loops and data structures in choosen language
+- Loops and data structures in chosen language
 
 ## What you might need to learn:
 - RESTful API structure: methods and URL format
