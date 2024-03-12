@@ -2,6 +2,9 @@
 
 Selles juhendis on kohtumised 4 akadeemilist tundi pikad.
 
+## TODO vaata neid
+https://codingbat.com/python
+
 ## Tundide struktuur
 
 ### A) Kui tunni eesmärk on uus teema (hea oleks max 3h)
