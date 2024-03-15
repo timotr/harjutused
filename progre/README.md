@@ -52,13 +52,18 @@ Et paremini aru saada kuidas arvutid töötavad soovitan YouTube'ist vaadata pla
 CodeWars. Pakun, et seal on miljoneid harjutusi ja saad lahendada peaaegu igas programeermiskeeles.  
 Harjutused on pandud keerukuse järgi järkudesse, edasi arenedes saad järjest raskemaid harjutusi.  
 https://www.codewars.com/r/nsmOeA (referal link)
+https://leetcode.com/ (see on natuke lihtsam sait vb algajale)
 
 Mõned harjutused leiab ka Redditist kui CodeWarsi automaattestidega lähenemine ei meeldi.  
 https://www.reddit.com/r/dailyprogrammer/
 
-Võimalus teiste programeerijatega omavahel võistelda lahendades lühikesi ülesandeid.  
+Edasijõudnutele võimalus teiste programeerijatega omavahel võistelda lahendades lühikesi ülesandeid.  
 https://www.codingame.com/multiplayer/clashofcode
 
 Algajatele iseseisvaks harjutamiseks mõeldud tasuta interaktiivsed kursused:  
 Eesti keeles: https://www.ko-it.ee/  
 Inglise keeles: https://www.codecademy.com/learn/introduction-to-javascript
+
+Kes soovib raamatut lugeda, mul on pakkuda kaks tasuta online raamatut. Need on tegelikult väga põhjalikud, kõike ei pea otsast lõpuni läbi käima. Seal õpetab erinevaid tehnikaid ja mõtlemist ka.  
+https://javascript.info/  
+https://eloquentjavascript.net/
