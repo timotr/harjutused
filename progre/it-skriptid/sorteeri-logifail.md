@@ -3,7 +3,7 @@
 See ülesanne on lihtsalt lahendatav programmeerides aga ma tahaks lisada sellele väikse twisti.
 Windowsis ja Unixi süsteemidel on olemas programm `sort`, mis suudab sisendiks võtta faili ja selle ridade kaupa sorteerida.
 
-Eesmärk on mõista, et programmeermiskeeltes on võimalik saata käsklusi edasi ka operatsioonisüsteemile, mis on võimeline käivitama omakorda teisi programme. Need võivad olla kirjutatud teises keeltes kui sinu skript.  
+Eesmärk on mõista, et programmeermiskeeltes on võimalik saata käsklusi edasi ka operatsioonisüsteemile, mis on võimeline käivitama omakorda teisi programme. Need võivad olla kirjutatud teises keeles kui sinu skript.  
 Näiteks `sort` programm on kirjutatud C keeles ja kompileeritud masinkoodi. See tähendab, et see on võimeline sorteerima kuni 100x kiiremini, kui interpreteeritavad keeled nagu Python ja JavaScript.  
 Väikse faili puhul ei mängi see väga rolli aga teatud olukordades on failides miljoneid ridu kandeid ja siis hakkab kiiruse vahe juba rolli mängima - kas 6 sekundit või 1 minutit.
 
