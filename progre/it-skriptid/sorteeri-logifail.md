@@ -12,6 +12,6 @@ Seejärel käivita käsklus mis kasutab `sort` programmi ja annab sisendiks [sel
 Kui logifail pole sinu programmi kõrval siis peab `sort` programmi parameetriks panema täieliku teekonna failini (absolute path).  
 Kui teekonnas (path) on tühikud siis ära unusta lisada jutumärke: `sort "C:/Users/Timo Triisa/Downloads/logifail.log"`
 
-Seda harjutust on uskumatult lihtne teha AI/LLM mudelite abil. Aga kui sa tahad programmeermises paremaks saada soovitan pärast AI lahenduse kasutamist proovida kirjutada sama programm ilma lahendust vaatamata peast.
+**Seda harjutust on uskumatult lihtne teha AI/LLM mudelite abil. Aga kui sa tahad programmeermises paremaks saada soovitan pärast AI lahenduse kasutamist proovida kirjutada sama programm ilma lahendust vaatamata peast. Eriti, kui sa õpid tarkvaraarenduse erialal - AI kasutamine võib anda vale enesekindluse ning tegelike tööülesannete puhul võid jääda hätta. AI teeb kogenud arendaja töö lihtsamaks aga ei võta ära nende tööd.**
 
 Näita tulemust õpetajale enda arvutist.
