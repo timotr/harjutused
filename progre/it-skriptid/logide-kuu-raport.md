@@ -1,4 +1,4 @@
-# Logide igakuine raport
+# Logifaili põhjal kuude kaupa aruanne
 
 Kirjuta programm mis loeb [selle logifaili](https://raw.githubusercontent.com/timotr/harjutused/main/progre/it-skriptid/access.log) läbi ning väljastab käsureale kuude lõikes veakoodide raporti.
 See tähendab, et mitu korda igat koodi selles kuus esines. Neid veakoode mida leiti 0 korda ei pea kirjutama.
