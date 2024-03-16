@@ -5,7 +5,7 @@ Windowsis ja Unixi süsteemidel on olemas programm `sort`, mis suudab sisendiks 
 
 Eesmärk on mõista, et programmeermiskeeltes on võimalik saata käsklusi edasi ka operatsioonisüsteemile, mis on võimeline käivitama omakorda teisi programme. Need võivad olla kirjutatud teises keeles kui sinu skript.  
 Näiteks `sort` programm on kirjutatud C keeles ja kompileeritud masinkoodi. See tähendab, et see on võimeline sorteerima kuni 100x kiiremini, kui interpreteeritavad keeled nagu Python ja JavaScript.  
-Väikse faili puhul ei mängi see väga rolli aga teatud olukordades on failides miljoneid ridu kandeid ja siis hakkab kiiruse vahe juba rolli mängima - kas 6 sekundit või 1 minutit.
+Väikese faili puhul ei see väga oluline, aga teatud olukordades on failides miljoneid ridu ja siis hakkab kiiruse vahe juba rolli mängima - kas 6 sekundit või 1-2 minutit.
 
 Seega uuri mis funktsiooniga on võimalik käivitada käsurea programme läbi Pythoni või Javascripti.  
 Seejärel käivita käsklus mis kasutab `sort` programmi ja annab sisendiks [selle logifaili](https://raw.githubusercontent.com/timotr/harjutused/main/progre/it-skriptid/access.log) pathi sinu arvutis.  
