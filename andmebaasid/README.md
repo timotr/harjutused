@@ -6,8 +6,8 @@ https://mystery.knightlab.com/ - game where you are a detective and have to solv
 
 ## Hindelised tööd
 
-- Hobusetalli andmebaas (ERD)
-- Drizzle ORM katsetus (schema, migratsioonid + test sissekanne)
+- [Hobusetalli andmebaas](https://github.com/timotr/harjutused/blob/main/andmebaasid/stable-database.md) (ERD)
+- [Drizzle ORM katsetus](https://github.com/timotr/harjutused/blob/main/andmebaasid/Drizzle-ORM-prototype.md) (schema, migratsioonid + test sissekanne)
 - RIMI päringud
 - Andmebaasi varundamine (dump + scp)
 - Maarja domeeni vormidelt info kokku ja andmebaasi (lõimitud Kasutajaliidesed + Hajusrakendused)
