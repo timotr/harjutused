@@ -371,6 +371,10 @@ enum Speciality {
 }
 ```
 
+# Seitsmes kohtumine
+
+Jätkameste eelmistega praktikaportaali kontrollerid, login, Postmaniga andmed salvestada, andmebaasi kasutaja seadistamine Prisma shadow database jaoks
+
 # Kaheksas kohtumine
 
 Backupide asi uuesti aga seadistame ise backup serveri ja teeme SSH võtmetega ligipääsu.
