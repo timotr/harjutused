@@ -111,7 +111,7 @@ Student can apply to the job offer and company will get an notification and can 
 
 ## Viies kohtumine
 Lõpetame ära skeema rollide õiguste osa mida eelmine kord ei jõudnud.
-Siin on lõplik schema enne DrawSQLis joonistamist eesti rühmaga:
+Siin on lõplik schema enne DrawSQLis joonistamist eesti rühmaga, vene rühmal tuli natuke teistsugune:
 ```
 Student
 id
