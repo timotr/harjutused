@@ -12,5 +12,6 @@ https://mystery.knightlab.com/ - game where you are a detective and have to solv
 - Andmebaasi varundamine (dump + scp)
 - Maarja domeeni vormidelt info kokku ja andmebaasi (lõimitud Kasutajaliidesed + Hajusrakendused)
 - Praktikaportaali andmebaas (ERD + convert to Prisma schema with AI)
-- Praktikaportaalis päringud
-- Praktikaportaali API (Koa/Express, lõimitud Hajusrakendused)
+- Praktikaportaalis päringud select ja insert käsurealt `npx ts-node index.js` või `node index.js`
+- Praktikaportaali API (Koa/Express, lõimitud Hajusrakendused+Programmeerimine II(kontrollerid)) ja seed skript
+- Praktikaportaali Session tabel, 
