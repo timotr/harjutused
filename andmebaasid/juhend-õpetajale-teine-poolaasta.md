@@ -111,7 +111,9 @@ Student can apply to the job offer and company will get an notification and can 
 
 ## Viies kohtumine
 Lõpetame ära skeema rollide õiguste osa mida eelmine kord ei jõudnud.
-Siin on lõplik schema enne DrawSQLis joonistamist eesti rühmaga, vene rühmal tuli natuke teistsugune:
+Siin on lõplik schema enne DrawSQLis joonistamist eesti rühmaga, vene rühmal tuli natuke teistsugune.
+Põhjenda õpilastele, et DrawSQLis ERD skeemi joonistamine pole otseselt omaette eesmärk tööl aga see toimib väga hästi enesekontrolli tööriistana ning dokumentatsioonina teistele uutele arendajatele, kuna 2D pildi pealt on kergem seda informatsiooni välja lugeda kui wall-of-text'ist. Joonistamise teine mõte oli veel see, et esimene kord kui nad seda ise tegid tuli väga palju vigu sisse neil + polnud indekseid ja seosed õigesti. Seekord on selge juhend ees, et selle läbi joonistamine aitab paremini seda protsessi meelde jätta.
+
 ```
 Student
 id
@@ -376,5 +378,127 @@ enum Speciality {
 Jätkameste eelmistega praktikaportaali kontrollerid, login, Postmaniga andmed salvestada, andmebaasi kasutaja seadistamine Prisma shadow database jaoks
 
 # Kaheksas kohtumine
+Täitdame andmebaasi mõnede test andmetega. Eesmärk oleks teha natuke sügavam päring läbi mitme tabeli.
+Näiteks tegin 3 endpointi:
+- /api/companies
+- /api/companies/:id
+- /api/job-offers/:id/apply
 
-Backupide asi uuesti aga seadistame ise backup serveri ja teeme SSH võtmetega ligipääsu.
+Nende mõte oleks, et companies peaks vähem andmeid tagastaba, ainult nimed.
+Aga kui UI-s vajutad firma peale siis näitaks rohkem andmeid nagu teine endpoint on, näiteks lisab kõik selle firma tööpakkumised.
+Kolmas endpoint oli mul, et nad harjutaks käsitsi läbi Postmani veel nende seostatud kannete lisamist - neid kanded läheb ülesande eesmärgis vaja.
+Eesmärk oleks teha `/api/companies/:id` funktsioonile veel täiendus, et näitaks ka kõiki õpilasi kes on selle firma erinevatele tööpakkumistele kandideerinud.
+Hindan tunnis kohapeal tehtud lahendust.
+
+index.js
+```js
+app.get('/api/companies', async (req, res) => {
+    const companies = await prisma.company.findMany();
+    res.json(companies)
+});
+
+app.get('/api/companies/:id', async (req, res) => {
+    const { id } = req.params;
+    const company = await prisma.company.findUnique({
+        where: { id: Number(id) },
+        /*alguses selle osa jätsin välja neile koodi jagades, pärast kirjutasin ise selle, kui ülesannet seletasin
+          include: {
+          job_offers: true // LEFT JOIN company ON company.id == jobOffer.companyId
+          
+          // juurde vaja teha, et kandideeriva õpilase info tuleks ka
+          // LEFT JOIN student ON student.id == jobOffer.studentId
+        }*/
+    });
+    if (!company) {
+        return res.status(404).json({ error: 'Company not found' });
+    }
+    res.json(company)
+});
+
+app.post('/api/job-offers/:id/apply', async (req, res) => {
+    const { id } = req.params;
+    const { studentId } = req.body;
+    const jobOffer = await prisma.job_Offer.findUnique({
+        where: { id: Number(id) }
+    });
+    if (!jobOffer) {
+        return res.status(404).json({ error: 'Job offer not found' });
+    }
+    const student = await prisma.student.findUnique({
+        where: { id: Number(studentId) }
+    });
+    if (!student) {
+        return res.status(404).json({ error: 'Student not found' });
+    }
+    const studentJobOffer = await prisma.student_Job_Offer.create({
+        data: {
+            student: { connect: { id: studentId } },
+            job_offer: { connect: { id: Number(id) } },
+            created_at: new Date(),
+        }
+    });
+    res.status(201).json(studentJobOffer)
+});
+```
+
+seed.js
+```js
+import { PrismaClient, Speciality } from '@prisma/client';
+const prisma = new PrismaClient();
+
+(function seed() {
+    const students = [
+        { personal_id: "123456789", phone: "321654978", group: "TA-22E" },
+        { personal_id: "2345678", phone: "2321654978", group: "TA-22E" },
+        { personal_id: "345678900", phone: "3216345654978", group: "TA-22V" },
+        { personal_id: "57567984", phone: "34521654978", group: "TA-22V" },
+        { personal_id: "24364574567", phone: "34521654978", group: "TA-22V" },
+    ];
+    const companies = [
+        { aadress: "test 12-2", name: "Abc OÜ", regnr: "4123", contact_first_name: "", contact_last_name: "", contact_phone: "", contact_email: "", logo_url: "" },
+        { aadress: "test 7c", name: "Random AS", regnr: "4567", contact_first_name: "", contact_last_name: "", contact_phone: "", contact_email: "", logo_url: "" },
+        { aadress: "test 111", name: "OÜ Maksupettus", regnr: "1237", contact_first_name: "", contact_last_name: "", contact_phone: "", contact_email: "", logo_url: "" },
+        { aadress: "test 94-42", name: "Prismamarket", regnr: "9453", contact_first_name: "", contact_last_name: "", contact_phone: "", contact_email: "", logo_url: "" },
+    ];
+    const offers = [
+        { created_at: new Date(), salary:"maybe", title: "Arendaja", description: "", deadline: randomDate(),speciality: Speciality.Engineering },
+        { created_at: new Date(), salary:"maybe", title: "Testija", description: "", deadline: randomDate(), speciality: Speciality.Engineering },
+        { created_at: new Date(), salary:"maybe", title: "Kujundaja", description: "", deadline: randomDate(), speciality: Speciality.Design },
+        { created_at: new Date(), salary:"maybe", title: "Kujundaja", description: "", deadline: randomDate(), speciality: Speciality.Design },
+        { created_at: new Date(), salary:"maybe", title: "Kujundaja", description: "", deadline: randomDate(), speciality: Speciality.Design },
+        { created_at: new Date(), salary:"maybe", title: "C# arendaja", description: "", deadline: randomDate(), speciality: Speciality.Engineering },
+        { created_at: new Date(), salary:"maybe", title: "Java arendaja", description: "", deadline: randomDate(), speciality: Speciality.Engineering },
+        { created_at: new Date(), salary:"maybe", title: "Turundaja", description: "", deadline: randomDate(), speciality: Speciality.Marketing },
+    ];
+
+    students.forEach(async student => {
+        await prisma.student.create({
+            data: student
+        });
+    });
+
+    companies.forEach(async company => {
+        await prisma.company.create({
+            data: {
+                ...company,
+                job_offers: {
+                    create: offers.splice(0, 2)
+                },
+                
+            }
+        });
+    });
+    console.log("Seeded successfully!")
+})();
+
+// random date between 2024-04-01 and 2024-06-01
+function randomDate() {
+    const start = new Date(2024, 4, 1);
+    const end = new Date(2024, 6, 1);
+    return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+}
+```
+
+# Üheksas kohtumine
+
+Plaanis näidata kuidas kontrollerid viisakalt mitmesse faili jagada ja login teha.
