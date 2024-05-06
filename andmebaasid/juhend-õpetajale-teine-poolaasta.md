@@ -197,7 +197,7 @@ company_id
 ```
 
 # Kuues kohtumine
-Jätkame praktikaportaaliga. Teeme Prisma.io schema faili ära. Räägin kuidas Prisma teeb seosed ja kuidas many-to-many seosed saab peidetud vahetabeliga teha
+Jätkame praktikaportaaliga. Teeme Prisma.io schema faili ära, laseme eelmisete tundide väljundi põhjal AI-l genereerida mudelid. Räägin kuidas Prisma teeb seosed ja kuidas many-to-many seosed on peidetud vahetabeliga, kui ise teisit ei seadista.
 Aga erandina meie programmis on üks olukord kus tööpakkumisele kandideerinud õpilaste many-to-many seose juurde läheks ka vastuvõtmise või tagasilükkamise info ja siis on vaja explicit vahetabel teha schemas ikkagi. Näitan kus on selle kohta info Prisma manualis ja kuidas ma seda sisukorda kasutades üles leian.
 
 Räägin juurde MySQL ja Postgres erinevusest:
