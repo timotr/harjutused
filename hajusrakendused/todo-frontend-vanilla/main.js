@@ -52,7 +52,7 @@ function createTaskRow(task) {
 
     // Täidame vormi väljad andmetega
     const name = taskRow.querySelector("[name='name']");
-    name.innerText = task.name;
+    name.value = task.name;
 
     const checkbox = taskRow.querySelector("[name='completed']");
     checkbox.checked = task.completed;
