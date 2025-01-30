@@ -1,6 +1,6 @@
 import { DeleteOutlined } from "@ant-design/icons";
 import { Input, Button, Checkbox, List, Col, Row, Space, Divider } from "antd";
-import { produce } from "immer";
+import produce from "immer";
 import { useState } from "react";
 
 
