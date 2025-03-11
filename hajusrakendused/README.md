@@ -7,6 +7,12 @@
 [To-Do client app](https://github.com/timotr/harjutused/blob/main/hajusrakendused/todo-client.md) ENG
 4. Ainete-ülene projekt / A cross-curricular project
 
+2025 kevad tähtajad:
+- 1. Weather API veebruari lõpp 04.03.2025
+- 2. Spare Parts API märtsi lõpp 01.04.2025
+- Maarja domeeni server aprilli lõpp xx.05.2025
+- 3. ToDo client app  31.05.2025
+
 ## Boonus
 - Raspberry Pi kahe kontrolleri vaheline suhtlus serveriga (üks tiim teeb buttoni, teine tiim ledi)
 - Maarja's domain registration form backend
