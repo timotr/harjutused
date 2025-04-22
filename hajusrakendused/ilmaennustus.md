@@ -40,4 +40,4 @@ Sa tahad teha päringu aadressile /compact ning lisada sinna juurde query parame
 * mis on **laiuskraadi pikkuskraadi koordinaadid**
 
 ## Kuidas esitada
-Tööd saate esitada tunni ajal või Teams Assigments kaudu.
+Enamasti ma soovin tööd näha klassiruumis või videokõnes, kus saad oma rakendust demonstreerida. Vajadusel küsin mõned täiendavad küsimused. Sõltuvalt rühmast, võin pakkuda ka töö esitamist Teamsis või GitHubis, kuhu saadate ainult hoidla address.
