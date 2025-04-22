@@ -68,3 +68,6 @@ Sorting by column name (remember to use entire dataset when sorting, not just pa
 Sort in reverse order by adding `-` symbol in front of column name:
 
     localhost:3300/spare-parts?sort=-price
+
+## How to submit
+In most cases, I prefer to see your work in the classroom or during a video call, where you can demonstrate your application. If necessary, I will ask a few additional questions. Depending on the group, I may also offer the option to submit your work via GitHub or Teams.
