@@ -51,4 +51,4 @@ In order to solve the task, you have to ask the teacher additional questions, th
 - Navigate in React application, how to use functional components and React Hooks https://beta.reactjs.org/
 
 ## How to submit
-This work may be too large to submit in Teams, it is recommended to upload the application to GitHub and submit only the repository address in Teams.
+In most cases, I prefer to see your work in the classroom or during a video call, where you can demonstrate your application. If necessary, I will ask a few additional questions. Depending on the group, I may also offer the option to submit your work via GitHub or Teams, where you would only need to send the repository address.
