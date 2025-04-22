@@ -51,4 +51,4 @@ Klientrakendust (front-end) võib ise ehitada aga server-rakendust (back-end) se
 - Navigeerida Reacti rakenduses, kasutada funktsionaalseid komponente ja React Hook'e https://beta.reactjs.org/
 
 ## Kuidas esitada
-Enamasti ma soovin tööd näha klassiruumis või videokõnes, kus saad oma rakendust demonstreerida. Vajadusel küsin mõned täiendavad küsimused. Sõltuvalt rühmast, võin pakkuda ka töö esitamist Teamsis või GitHubis, kuhu saadate ainult hoidla address.
+Enamasti ma soovin tööd näha klassiruumis või videokõnes, kus saad oma rakendust demonstreerida. Vajadusel küsin mõned täiendavad küsimused. Sõltuvalt rühmast, võin pakkuda ka töö esitamist GitHubis või Teamsis, kuhu saadate ainult hoidla address.
