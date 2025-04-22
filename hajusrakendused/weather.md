@@ -40,4 +40,4 @@ In order to solve the task, you have to ask the teacher additional questions, th
 * what are **latitude longitude coordinates**
 
 ## How to submit
-You can present the work during class/lesson or submit it through Teams Assigments
+In most cases, I prefer to see your work in the classroom or during a video call, where you can demonstrate your application. If necessary, I will ask a few additional questions. Depending on the group, I may also offer the option to submit your work via Teams.
