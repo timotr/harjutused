@@ -70,4 +70,4 @@ Sorteeri tagurpidi lisade `-` märgi veeru nime ette:
     localhost:3300/spare-parts?sort=-price
 
 ## Kuidas esitada
-Enamasti ma soovin tööd näha klassiruumis või videokõnes, kus saad oma rakendust demonstreerida. Küsin mõned täiendavad küsimused. Sõltuvalt rühmast, võin pakkuda ka töö esitamist Teamsis või GitHubis, kuhu saadate ainult hoidla address.
+Enamasti ma soovin tööd näha klassiruumis või videokõnes, kus saad oma rakendust demonstreerida. Küsin mõned täiendavad küsimused. Sõltuvalt rühmast, võin pakkuda ka töö esitamist Teamsis või GitHubis.
