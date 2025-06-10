@@ -10,12 +10,9 @@ Harjutused tuleb esitada esimesel võimalusel ja mitte enne poolaasta lõppu, ta
 Selles aines on meie eesmärgiks aru saada, mis tehnikatega saame rakendused üle Interneti suhtlema panna ning mida ja kuhu tuleb koodis kirjutada, et rakendused saaksid omavahel andmeid vahetada. Teeme läbi vähemalt ühe protokolliga suhtluse (HTTP).
 
 ## Hajusrakenduste harjutused
-1. EST [Ilmaennustuse API](https://github.com/timotr/harjutused/blob/main/hajusrakendused/ilmaennustus.md)  
-ENG [Weather API](https://github.com/timotr/harjutused/blob/main/hajusrakendused/weather.md)
-2. EST [Varuosade API](https://github.com/timotr/harjutused/blob/main/hajusrakendused/varuosad.md)  
-ENG [Spare Parts API](https://github.com/timotr/harjutused/blob/main/hajusrakendused/spareparts.md)
-3. EST [Ülesannete nimekirja klientrakendus](https://github.com/timotr/harjutused/blob/main/hajusrakendused/yl-nimekiri-klient.md)  
-ENG [To-Do client app](https://github.com/timotr/harjutused/blob/main/hajusrakendused/todo-client.md)
+1. [Ilmaennustuse API](https://github.com/timotr/harjutused/blob/main/hajusrakendused/ilmaennustus.md) (in English [Weather API](https://github.com/timotr/harjutused/blob/main/hajusrakendused/weather.md))
+2. [Varuosade API](https://github.com/timotr/harjutused/blob/main/hajusrakendused/varuosad.md) (in English [Spare Parts API](https://github.com/timotr/harjutused/blob/main/hajusrakendused/spareparts.md))
+3. [Ülesannete nimekirja klientrakendus](https://github.com/timotr/harjutused/blob/main/hajusrakendused/yl-nimekiri-klient.md) (in English [To-Do client app](https://github.com/timotr/harjutused/blob/main/hajusrakendused/todo-client.md))
 4. Ainete-ülene projekt / A cross-curricular project
 
 ### 2025 kevad TA-23 rühma tähtajad:
