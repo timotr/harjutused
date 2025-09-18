@@ -10,14 +10,12 @@ Näidis milline väljund võiks olla:
     2022-09-17T11:00:00 19C
     ...
 
-Eesmärk on meenutada kuidas HTTP päringut teha ja päringu JSON formaadis vastust lugeda.
-Kui teete C# projektina siis pole vaja tervet projekti üles laadida, piisab sellest failist kus andmete lugemine toimub, nt Program.cs console app puhul.
-Ideaalis võiksid tööd esitleda tunnis.
+Eesmärk on meenutada/harjutada kuidas HTTP päringut teha ja päringu JSON formaadis vastust lugeda. Harjutuse juures kõige raskem osa on mõista serverist saadetud andmestruktuuri ja kuidas seda lugeda. See on asi mida AI tööriistad antud ülesande juures oskavad väga hästi (avalik veebiteenus) aga millega päris tööprojektidega AI hätta jääb (suletud lähtekood). Julgustan küsima kõige kohta, mis puudutab andmestruktuure ja nende lugemist.
 
 Sa leiad Yo.no API aadressi kui otsid internetist "yr.no api" ja veebilehele jõudes vajuta "Get started" > "Start here".
 Sa tahad teha päringu aadressile /compact ning lisada sinna juurde query parameetritega Tallinna koordinaadid.
 
-Ülesanne lahendamiseks tuleb õpetajalt täiendavaid küsimusi küsida, kirjelduses pole meelega kõike infot olemas.
+Ülesande lahendamiseks tuleb õpetajalt täiendavaid küsimusi küsida, kirjelduses pole meelega kõike infot olemas.
 
 ## Hindamine
  - Hinne 3 Rakendus näitab praegust temperatuuri
