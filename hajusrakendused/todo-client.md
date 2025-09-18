@@ -42,10 +42,12 @@ In order to solve the task, you have to ask the teacher additional questions, th
 - How to make HTTP requests
 - How to set HTTP request headers, query parameters and body data
 - Loops and data structures in chosen language
+- What is DOM and how to detect button click with JavaScript using DOM
 
 ## What you might need to learn:
 - RESTful API structure: methods and URL format
 - What are cookies
+- Read more about DOM functions and Events
 - How to store session tokens in sessionStorage or localStorage
 - What are debounce and throttle functions  [Pretty ok article for this](https://blog.logrocket.com/how-and-when-to-debounce-or-throttle-in-react/)
 - About CORS when using Chrome
