@@ -10,9 +10,7 @@ For example, like this:
     2022-09-17T11:00:00 19C
     ...
 
-The goal is to remind how to make an HTTP request and read the response in JSON format.
-If you make it as a C# project, it is not necessary to upload the entire project, the file where the data is read is sufficient, e.g. Program.cs in the case of the console app.
-Ideally, you could present the work during the class/lesson.
+The goal is to remind how to make an HTTP request and read the response in JSON format. Hardest part of the exercise is to understand and read the data structure. It's something that AI will do very well in this case (public web app), but struggles in real projects (closed source code). I engourage to ask me about data structures and how to read (access) them.
 
 You can get Yo.no API endpoint address by searching "yr.no api" from web/Google and click "Get started" > "Start here" on the site.
 You want to make request to /compact endpoint with Tallinn coordinates on query parameters.
