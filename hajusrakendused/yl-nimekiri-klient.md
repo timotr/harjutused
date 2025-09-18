@@ -42,10 +42,12 @@ Klientrakendust (front-end) võib ise ehitada aga server-rakendust (back-end) se
 - Kuidas teha HTTP-päringuid
 - Kuidas määrata HTTP päringu päiseid, päringu parameetreid (query params) ja body
 - Tsüklid ja andmestruktuurid valitud keeles
+- Mis on DOM ja kuidas nupu vajutust tuvastada JavaScriptiga läbi DOM'i
 
 ## Mida peate võib-olla juurde õppima:
 - RESTful API struktuur: meetodid ja URL-i vorming
 - Mis on küpsised (cookies)
+- Uurida rohkem veebilehitseja DOM funktsioonide ja erinevate Event'ide kohta
 - Kuidas kasutada sessionStorage või localStorage hoidlaid
 - Mis on debounce ja throttle funktsioonid [Päris ok artikkel selle jaoks](https://blog.logrocket.com/how-and-when-to-debounce-or-throttle-in-react/)
 - Teave CORS-i kohta Chrome'i kasutamisel
