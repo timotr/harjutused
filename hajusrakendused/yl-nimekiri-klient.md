@@ -5,7 +5,8 @@ Luua ülesannete nimekirja rakendus, kus saab lisada tegevusi või meelespeasid.
 Võid ka järgmises peatükis oleva rakenduse alla laadida ja käima panna kui see aitab paremini aru saada mida rakendus teeb.
 
 Kui eelneva kirjelduse põhjal on näidiseks klient-rakendused olemas, siis oluline osa on lisada rakendusele võimekus salvestada andmed internetis asuvasse serverisse.
-Selle harjutuse jaoks olen loonud server-rakenduse (REST API), mis suudab ülesandeid salvestada. Küll aga ma ei jaga serveri koodi, harjutus seisneb selles, et tuleb hakkama saada osalise informatiooniga. API ja selle juhend asuvad aadressil http://demo2.z-bit.ee/
+Selle harjutuse jaoks olen loonud server-rakenduse (REST API), mis suudab ülesandeid salvestada. Küll aga ma ei jaga serveri koodi, harjutus seisneb selles, et tuleb hakkama saada osalise informatiooniga.  
+API ja selle juhend asuvad aadressil http://demo2.z-bit.ee/
 **Antud harjutuses peab kasutama olemasolevat serverit, enda tehtud serveri kasutamine ei sobi.**
 
 Esimene samm oleks mõne HTTP graafilise tööriistaga (Postman, Insomnia, VSC Thunder Client) teha endale kasutaja demo2 serverisse.
