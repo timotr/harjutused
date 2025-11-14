@@ -4,7 +4,8 @@
 Create a to-do list app where you can add activities or reminders. Every task or activity can be marked as done, name can be changed and task can be deleted if necessary.
 You can also download and run the demo application in the next chapter if it helps you better understand what the application does.
 
-As there are sample client applications already based on the previous description, then an important part is to add the capability for the application to save data to a server located on the internet. For this exercise, I have created a server application (REST API) that is able to store tasks. However, I will not be sharing the server code; the exercise consists of finding a solution with only partial information. The API and its manual are located at http://demo2.z-bit.ee/
+As there are sample client applications already based on the previous description, then an important part is to add the capability for the application to save data to a server located on the internet. For this exercise, I have created a server application (REST API) that is able to store tasks. However, I will not be sharing the server code; the exercise consists of finding a solution with only partial information.  
+The API and its manual are located at http://demo2.z-bit.ee/
 **In this exercise, you must use an existing server; using a server you have made yourself is not suitable.**
 
 The first step would be to create a user on the demo2 server with some graphical HTTP tool (Postman, Insomnia, VSC Thunder Client).
