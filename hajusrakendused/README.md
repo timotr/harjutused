@@ -29,6 +29,8 @@ Selles aines on meie eesmärgiks aru saada, mis tehnikatega saame rakendused ül
 - Long-polling näide
 - Päris krüptot proovida kasutada? Vähemalt walleti ideest aru saada.
 
+https://web.dev/articles/url-parts
+
 ## Tehisaru kasutamine
 AI kasutamine ei ole keelatud, see kiirendab õppimist, aga ainult siis, kui seda õigesti kasutada: lugeda rahulikult läbi kõik tema antud vastused ja küsida talt täiendavaid küsimusi, kui midagi tema vastustest jääb segaseks. Iga harjutuse juures on ka täiendavad teemad, mida võiksite osata, need on mõistlik koos AI-ga läbi käia, see tähendab: kopeerid küsimuse harjutusest tehisaru vestlusaknasse ja loed vastust, võimaluse korral rakendad enda koodis. 
 
